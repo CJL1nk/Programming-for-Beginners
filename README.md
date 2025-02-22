@@ -13,6 +13,8 @@ There's several other languages good for beginners but this is the best in my op
 
 Next, we'll need an IDE, which is a little code area that'll help us edit, make, manage, and run our code and files. If you want something Python specific, you can use [PyCharm](https://www.jetbrains.com/pycharm/download/), however I recommend [Visual Studio Code](https://code.visualstudio.com/) as it's universal, fast, and really easy to use
 
+Before we get started, keep in mind that this is more of a learning guide than a tutorial itself. There'll still be a good amount of mini lessons I'll teach and whatnot, especially in the first few lessons, however this is mostly meant to be self-paced and taught. Don't let that turn you away though, as the resources and information you find here is more valuable than you'll likely find anywhere else.
+
 ### ----- What to learn (Ordered) -----
 - Basic programming functions like printing, performing operations on numbers, user input
 - If/Else statements
@@ -24,7 +26,7 @@ Next, we'll need an IDE, which is a little code area that'll help us edit, make,
 - Basic problem breakdown and solving skills
 - Read everything below, ESPECIALLY including ***How do I “Problem Solve?”***
 
-This will likely take a little while, don't just watch a video or two and have a basic understanding of their concepts. True understanding and knowledge comes through **experience**, which takes lots of **time**, **failure**, **mistakes**, and most importantly, **projects**.
+This will likely take a little while, don't just watch a video or two and have a basic understanding of their concepts. True understanding and knowledge comes through **experience**, which takes lots of **time**, **failure**, **mistakes**, and most importantly, **projects**. This lesson covers a LOT and should by far take the longest of any of the lessons, at the very **LEAST 2-3 weeks**.
 
 This stage of your learning is hands down the most important part of your entire journey. Without a very strong understanding of the **fundamentals of programming itself**, you won't be able to get anywhere on your own. Keep in mind the fundamentals are significantly different and more important than the programming language itself. Things like real problem solving skills and the ability to break a problem down into individually solvable parts are incredibly useful, impossible to move on without. As tedious and boring as it might get, I can't reiterate enough that you need to **REALLY TRULY** understand these first few lessons, to the point of where any project or problem could be provided to you within your skill level and you should be able to pull it off within a **reasonable amount of time** with minimal problems.
 
