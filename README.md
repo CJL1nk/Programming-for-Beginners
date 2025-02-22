@@ -13,18 +13,28 @@ There's several other languages good for beginners but this is the best in my op
 
 Next, we'll need an IDE, which is a little code area that'll help us edit, make, manage, and run our code and files. If you want something Python specific, you can use [PyCharm](https://www.jetbrains.com/pycharm/download/), however I recommend [Visual Studio Code](https://code.visualstudio.com/) as it's universal, fast, and really easy to use
 
-Before we get started, keep in mind that this is more of a learning guide than a tutorial itself. There'll still be a good amount of mini lessons I'll teach and whatnot, especially in the first few lessons, however this is mostly meant to be self-paced and taught. Don't let that turn you away though, as the resources and information you find here is more valuable than you'll likely find anywhere else.
+Before we get started, keep in mind that this is more of a learning guide than a tutorial itself. There'll still be a good amount of mini lessons I'll teach and whatnot, especially in the first few lessons, however this is mostly meant to be self-paced and taught. Multiple resources for learning given topics are given at the bottom of each lesson. Don't let that turn you away though, as the resources and information you find here is more valuable than you'll likely find anywhere else.
 
 ### ----- What to learn (Ordered) -----
 - Basic programming functions like printing, performing operations on numbers, user input
 - If/Else statements
 - Functions, parameters, arguments
-- Data types like int, string, float/double
+- Variable data types like int, string, float/double
 - Arrays
 - Loops and the different ways they're utilized
 - Basic understanding of documentation websites
 - Basic problem breakdown and solving skills
 - Read everything below, ESPECIALLY including ***How do I “Problem Solve?”***
+
+---**What are these? (Also ordered)**---
+* Basic programming functions are just the most commonly, easy to use coding functions. Things that let you add numbers, print stuff to the console, and let the user type things in.
+* If/Else statements are used to make your program run different code based off given conditions. For example, if a number is less than 5, say "Hello" to console, else, if it's greater than 5, write "Goodbye" to console.
+* Functions let you "save" a block of code and call it whenever desired, multiple times even.
+* Variable data types are the type of data you're storing. For example, you couldn't have "B" in an integer variable because an integer only stores a number.
+* Arrays allow you to store a collection of multiple values in a single variable.
+* Loops continuously run the same block of code until a certain of code is meant. For example, increment a number by 3 until the number is greater than 20.
+* Documentation websites are where you'll often find yourself when learning new programming languages or when using libraries. They tell you how the code works, how to use it, and any quirks it may have.
+* Problem solving skills are explained below.
 
 This will likely take a little while, don't just watch a video or two and have a basic understanding of their concepts. True understanding and knowledge comes through **experience**, which takes lots of **time**, **failure**, **mistakes**, and most importantly, **projects**. This lesson covers a LOT and should by far take the longest of any of the lessons, at the very **LEAST 2-3 weeks**.
 
@@ -56,13 +66,14 @@ One of the hardest parts of learning how to program is **learning how to learn i
 
 - [Python For Beginners](https://www.python.org/about/gettingstarted/)
 - [CodeAcademy](https://www.codecademy.com/learn/learn-how-to-code)
+- [W3Schools](https://www.w3schools.com/) (My king <3)
+- [GeeksForGeeks](https://www.geeksforgeeks.org/)
 - [RealPython](https://realpython.com/)
 - [LeetCode](https://leetcode.com/)
 - [12 Hour Python Course](https://www.youtube.com/watch?v=ix9cRaBkVe0) (Please don't just watch this and assume you know everything)
 - [(Playlist) Another Good Python Course](https://www.youtube.com/watch?v=mRMmlo_Uqcs&list=PLIhvC56v63ILPDA2DQBv0IKzqsWTZxCkp)
 - [Python Documentation](https://docs.python.org/3/)
 - [StackOverflow](https://stackoverflow.com/questions) (Use this as a last resort for questions, sometimes people's solutions are a bit bogus)
-- [GeeksForGeeks](https://www.geeksforgeeks.org/)
 
 # L2
 
@@ -70,3 +81,17 @@ So you've made it this far, farther than most people really. By now, you should 
 
 ### ----- What to learn (Ordered) -----
 - File importing and multi-file programs
+- Package installation with pip
+- Documentation reading and writing
+- File reading and writing
+- Using files to store data
+- Basic command line commands
+- Git and GitHub
+
+---**What are these? (Also ordered)**---
+* File importing lets you use functions written in other files. This is very helpful for organizing your code.
+* PIP is the default python package installer. It allows you to download packages or libraries, which are often large organized collections of code (or "modules") written by other people made to perform a variety of specific, related functions.
+* As explained before, documentation is how we keep track of our code in English, writing out what it does, how it works, how to use it, and what to expect from it.
+* File reading allows us to read data from a file for our program to use, and file writing allows us to write data. This is incredibly useful for things like game save files or storing other data we might want to save across sessions.
+* The command line is your little terminal where you type in commands. This is arguably one of the most important things to learn early because you don't wanna be stuck as what I like to call a "clicker."
+* Git is a command line application that lets us track the version history of our code. GitHub is a place where we can upload Git repositories, which are the collections of our code bases. This allows us to track progress and past versions of our code, as well as acts as an online backup just in case we somehow lose it.
