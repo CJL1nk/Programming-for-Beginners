@@ -142,7 +142,7 @@ We've finally moved onto slightly more advanced projects yippee!! From here on o
 
 # L3 - Objects and Basic Algorithms
 
-baka sigmitty
+So we know the basics of programming and hopefully how to not write ugly messy code. We've written some basic programs, probably not SUPER useful but by now we're starting to see some ways we might actually be able to use our skills. In this lesson, we're learning about Objects, which you may have already naturally learned some things about. Objects are one of the most useful things you'll ever use, and some form of creating them is included in almost every single programming language out there. On top of that, we'll start to look at some basic algorithms that will be the building blocks of some more advanced topics later down the road.
 
 This lesson should take approximately 2-3 weeks.
 
