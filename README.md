@@ -96,6 +96,8 @@ So you've made it this far, farther than most people really. By now, you should 
 * As explained before, documentation is how we keep track of our code in English, writing out what it does, how it works, how to use it, and what to expect from it.
 * Git is a command line application that lets us track the version history of our code. GitHub is a place where we can upload Git repositories, which are the collections of our code bases. This allows us to track progress and past versions of our code, as well as acts as an online backup just in case we somehow lose it.
 
+One thing I wanna go over right away is how important learning how to write clean, organized, and well documented code is in this phase. It's really easy to be mindlessly writing code without thinking about how readable it is or how well it might be optimized. Whether you believe it or not, you **will** eventually forget exactly how some parts of your programs work and if there's no comments explaining anything and the code is messy, written like a bowl of noodles, you'll have a hard time figuring out what exactly does what and how things are linked together. As a result, this makes maintaining, expanding, and updating your code significantly harder.
+
 ### ----- Project Ideas -----
 
 We've finally moved onto slightly more advanced projects yippee!!
