@@ -7,8 +7,8 @@ learn to use the 'puter
 So you know next to nothing other than computer has a screen and does some cool stuff <br />
 You made it here so I'm just gonna assume you at least know how to use that jawnson
 
-Our very first step here is to learn the basics of programming, preferably in an easy language like [Python](https://www.python.org/downloads/)
-There's several other languages good for beginners but this is the best in my opinion
+Our very first step here is to learn the basics of programming, preferably in an easy language like [Python](https://www.python.org/downloads/) <br />
+There's several other languages good for beginners but this is the best in my opinion <br />
 **AS YOU INSTALL** There should be a box labeled "Add Python 3.x.x to PATH", I highly recommend checking this box as it'll probably help you out later down the road.
 
 Next, we'll need an IDE, which is a little code area that'll help us edit, make, manage, and run our code and files. If you want something Python specific, you can use [PyCharm](https://www.jetbrains.com/pycharm/download/), however I recommend [Visual Studio Code](https://code.visualstudio.com/) as it's universal, fast, and really easy to use
