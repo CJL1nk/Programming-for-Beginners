@@ -81,17 +81,17 @@ So you've made it this far, farther than most people really. By now, you should 
 
 ### ----- What to learn (Ordered) -----
 - File importing and multi-file programs
-- Package installation with pip
-- Documentation reading and writing
 - File reading and writing
 - Using files to store data
 - Basic command line commands
+- Package installation with pip
+- Documentation reading and writing
 - Git and GitHub
 
 ---**What are these? (Also ordered)**---
 * File importing lets you use functions written in other files. This is very helpful for organizing your code.
-* PIP is the default python package installer. It allows you to download packages or libraries, which are often large organized collections of code (or "modules") written by other people made to perform a variety of specific, related functions.
-* As explained before, documentation is how we keep track of our code in English, writing out what it does, how it works, how to use it, and what to expect from it.
 * File reading allows us to read data from a file for our program to use, and file writing allows us to write data. This is incredibly useful for things like game save files or storing other data we might want to save across sessions.
 * The command line is your little terminal where you type in commands. This is arguably one of the most important things to learn early because you don't wanna be stuck as what I like to call a "clicker."
+* PIP is the default python package installer. It allows you to download packages or libraries, which are often large organized collections of code (or "modules") written by other people made to perform a variety of specific, related functions.
+* As explained before, documentation is how we keep track of our code in English, writing out what it does, how it works, how to use it, and what to expect from it.
 * Git is a command line application that lets us track the version history of our code. GitHub is a place where we can upload Git repositories, which are the collections of our code bases. This allows us to track progress and past versions of our code, as well as acts as an online backup just in case we somehow lose it.
