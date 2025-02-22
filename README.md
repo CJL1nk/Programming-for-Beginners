@@ -116,7 +116,7 @@ The final topic I wanna go over here is edge case handling. As mentioned before,
 
 ### ----- Project Ideas -----
 
-We've finally moved onto slightly more advanced projects yippee!! From here on out, each of these projects will likely take a bit longer and require more thinking and troubleshooting. Don't let that demotivate you though, as that's really, truly, the only way to get better. I also recommend practicing writing cleaner, more organized code as you work on these projects.
+We've finally moved onto slightly more advanced projects yippee!! From here on out, each of these projects will likely take a bit longer and require more thinking and troubleshooting. Don't let that demotivate you though, as that's really, truly, the only way to get better. I also recommend practicing writing cleaner, more organized code as you work on these projects. Be sure to handle any errors or edge cases that may occur so your program doesn't crash or break.
 
 - Clean up old code. Look through some of your past projects and see how you can clean, document, and potentially maybe even optimize some of the past programs you've written. This is a very common thing to need to do, so getting some practice in now never hurts.
 - Use a library like matplotlib to display some type of statistics of your choice. [Matplotlib](https://matplotlib.org/)
@@ -157,12 +157,14 @@ This lesson should take approximately 2-3 weeks.
 * Classes are a way to store what we call "Objects" in programming. A single object represents an entity with its own attributes and methods, meaning it can have multiple of its own variables and functions. An example of this would be creating a Person class, where it has a name, birth date, weight, height, and might have some functions like eat() that increase the person's weight. We can then create multiple instances of this person class, so we could have Person1, Person2, Person3, etc.. all with their own names, heights, weights and so on.
 * Class methods are functions within a class designed to perform specific functions on its parent class. Usually they involve simply modifying or returning values, but can be used in other clever ways too.
 * Object oriented programming (OOP) is the concept of designing our programs around objects.
-* Dictionaries (or Hashmaps in other languages) are a way of associating 2 pieces of data together. For example, we could have a dictionary containing a class's grades. Each item in this dictionary has a key and a value, and in this case we'd see relationships like "John": 85.3 or "Martha": 92.0 where the key is the person's name and the value is their grade. We can then just access the dictionary by the persons name and immediately retrieve their grade. Unlike arrays, we can instantaneously access a key without having a search through the entire collection.
+* Dictionaries (or Hashmaps in other languages) are a way of associating 2 pieces of data together. For example, we could have a dictionary containing a class's grades. Each item in this dictionary has a key and a value, and in this case we'd see relationships like {"John": 85.3} or {"Martha": 92.0} where the key is the person's name and the value is their grade. We can then just access the dictionary by the persons name and immediately retrieve their grade. Unlike arrays, we can instantaneously access a key without having a search through the entire collection.
 * Bubble Sort, Insertion Sort, and Selection Sort are 3 of some of the most basic sorting algorithms. Sorting algorithms look at a collection of comparable objects, usually integers, and sort them from smallest to largest. These three are some very basic ones, however we'll look at some more complex, faster ones when we get into algorithms and data structures.
 
 ### ----- Project Ideas -----
 
+With objects and classes finally out of the way, we've finally learned some of the most useful features of programming. Of course, these features aren't very useful to us unless we practice and make good use of em, so get to work and make some cool stuff. Be sure to handle any errors or edge cases that may occur so your program doesn't crash or break.
 
+- Employee database, which contains a class Employee that holds the employees name, address, and phone number. Each employee is saved into a dictionary {EmployeeID: Employee} which is saved to a json file. Upon start, the program should load all the current employees from the json into the employees dictionary, and employees should be able to be added or removed.
 
 ### ----- Resources -----
 
