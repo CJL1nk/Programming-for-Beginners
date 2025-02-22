@@ -81,7 +81,7 @@ One of the hardest parts of learning how to program is **learning how to learn i
 
 # L2
 
-So you've made it this far, farther than most people really. By now, you should  have spent at least a couple weeks learning and writing mini programs and maybe even gone beyond. Ideally you should already know some of the stuff in here.
+So you've made it this far, farther than most people really. By now, you should  have spent at least a couple weeks learning and writing mini programs and maybe even gone beyond. Ideally you should already know some of the stuff in here. This lesson is mainly focused on extending your Python skills and learning how to utilize some of the more useful features of the language, as well as getting comfortable with new workflow environments.
 
 This lesson should take approximately 1-2 weeks.
 
@@ -90,6 +90,8 @@ This lesson should take approximately 1-2 weeks.
 - File reading and writing
 - Using files to store data
 - JSON
+- Error handling
+- Edge cases
 - Basic command line commands
 - Package installation with pip
 - Documentation reading and writing
@@ -99,6 +101,8 @@ This lesson should take approximately 1-2 weeks.
 * File importing lets you use functions written in other files. This is very helpful for organizing your code.
 * File reading allows us to read data from a file for our program to use, and file writing allows us to write data. This is incredibly useful for things like game save files or storing other data we might want to save across sessions.
 * JSON is a format that's commonly used to store various types of data. It's easy to understand and efficient, making it useful to store and retrieve somewhat large amounts of data.
+* Error handling is how we deal with errors that might happen in our code. An example of this is someone typing in some bogus into our menu like "rgtsrgsdf" when the options are numbers from 1-5. We need to be able to handle this and tell them it's an invalid option, or deal with it and move on with some default value instead of our program just crashing.
+* Edge cases are odd, out of the ordinary values our program might receive from the user or anywhere else that might be returning some value. For example, we have a program that asks us to enter 2 numbers to determine which one is greater. What happens if they're the same number? What happens if one of them is extremely huge, or extremely small? What happens if somehow the user enters a null value?
 * The command line is your little terminal where you type in commands. This is arguably one of the most important things to learn early because you don't wanna be stuck as what I like to call a "clicker."
 * PIP is the default python package installer. It allows you to download packages or libraries, which are often large organized collections of code (or "modules") written by other people made to perform a variety of specific, related functions.
 * As explained before, documentation is how we keep track of our code in English, writing out what it does, how it works, how to use it, and what to expect from it.
@@ -108,12 +112,15 @@ One thing I wanna go over right away is how important learning how to write clea
 
 Another thing I think is important to learn somewhat early on is how to actually use the command line. At first sight it's a pretty scary thing, a lot of people view it as a dangerous section of your computer that you should never touch to avoid screwing something up. While this is kind of true to some degree, it's nearly impossible to do, especially on windows, without a good amount of knowledge and luck. In order to screw something up, it HAS to be intentional, so you probably won't need to worry too much. The reason I think it's such an important thing to learn now is mainly because of Git, as the commands you'll be running are all through the terminal unless you use something like GitHub desktop. On top of that, basic knowledge of it is necessary for more advanced programming languages like C++, which we'll learn a little later down the road. It's also very common for servers to run on Linux distributions that are terminal only, meaning there's no user interface or anything you can click on. This might seem a little silly at first, but you'll understand a little better later on once we learn how servers work and how resource intensive having a GUI could be. Bottom line, get comfortable with the command line, it's not as scary or hard as it might seem at first.
 
+The final topic I wanna go over here is edge case handling. As mentioned before, edge cases are odd values that we might not exactly expect our program to receive which end up breaking things. It's easy to say something like "oh well whoever's using my program shouldn't be doing stupid inputs with it in the first place," and while you aren't exactly wrong, it's still not very good practice to just let these slip by. There are many, many instances where edge cases will arise from non user-entered values and our edge cases are completely normal values that we would expect to receive. That's why it's so important to handle, especially in large complex systems where a single error could shutdown an entire city.
+
 ### ----- Project Ideas -----
 
 We've finally moved onto slightly more advanced projects yippee!! From here on out, each of these projects will likely take a bit longer and require more thinking and troubleshooting. Don't let that demotivate you though, as that's really, truly, the only way to get better. I also recommend practicing writing cleaner, more organized code as you work on these projects.
 
 - Clean up old code. Look through some of your past projects and see how you can clean, document, and potentially maybe even optimize some of the past programs you've written. This is a very common thing to need to do, so getting some practice in now never hurts.
-- 
+- Use a library like matplotlib to display some type of statistics of your choice. [Matplotlib](https://matplotlib.org/)
+- Write a note taking app, which allows you to save notes with a title, an actual note itself, and an automatically determined date. Upon opening, a menu should be displayed asking the user if they want to write a note or open a note. If they choose to write a note, they enter a title and the note itself, which then gets saved to a file along with the date. If they choose to open a note, the title and date of every note they have written will display on screen, bonus points if you have a preview of the note itself. They can then choose to display a note by typing in the title.
 
 ### ----- Resources -----
 
@@ -121,6 +128,8 @@ We've finally moved onto slightly more advanced projects yippee!! From here on o
 * [(Video) Tips to organize Python code](https://www.youtube.com/watch?v=e9yMYdnSlUA)
 * [(Video) How to structure your code](https://www.youtube.com/watch?v=6OSpm4uXqDw)
 * [JSON Tutorial](https://www.w3schools.com/js/js_json_intro.asp)
+* [(Video) Error handling](https://www.youtube.com/watch?v=Xe-oxpOWeE0)
+* [(Video) Edge cases](https://www.youtube.com/watch?v=ZDfP3ZCaZMc)
 * [Windows Terminal Documentation](https://learn.microsoft.com/en-us/windows/terminal/)
 * [(Video) How to use the Windows terminal](https://www.youtube.com/watch?v=qnB044mHixc)
 * [Linux Terminal Documentation](https://linuxcommand.org/lc3_man_page_index.php)
