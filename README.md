@@ -102,16 +102,17 @@ We've finally moved onto slightly more advanced projects yippee!!
 
 ### ----- Resources -----
 
-[Teclado importing tutorial](https://teclado.com/30-days-of-python/python-30-day-18-imports/)
-[(Video) Tips to organize Python code](https://www.youtube.com/watch?v=e9yMYdnSlUA)
-[(Video) How to structure your code](https://www.youtube.com/watch?v=6OSpm4uXqDw
+* [Teclado importing tutorial](https://teclado.com/30-days-of-python/python-30-day-18-imports/)
+* [(Video) Tips to organize Python code](https://www.youtube.com/watch?v=e9yMYdnSlUA)
+* [(Video) How to structure your code](https://www.youtube.com/watch?v=6OSpm4uXqDw
 )
-[Windows Terminal Documentation](https://learn.microsoft.com/en-us/windows/terminal/)
-[Linux Terminal Documentation](https://linuxcommand.org/lc3_man_page_index.php)
-[PIP Documentation](https://packaging.python.org/en/latest/tutorials/installing-packages/)
-[(Video) How to document your code](https://www.youtube.com/watch?v=L7Ry-Fiij-M)
-[How to write good code documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation)
-[W3Schools Git tutorial](https://www.w3schools.com/GIT/) (Again please learn how to use this site it's AMAZING)
-[(Video) Git and GitHub tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk)
-[GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+* [Windows Terminal Documentation](https://learn.microsoft.com/en-us/windows/terminal/)
+* [Linux Terminal Documentation](https://linuxcommand.org/lc3_man_page_index.php)
+* [PIP Documentation](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+* [(Video) How to document your code](https://www.youtube.com/watch?v=L7Ry-Fiij-M)
+* [How to write good code documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation)
+* [W3Schools Git tutorial](https://www.w3schools.com/GIT/) (Again please learn how to use this site it's AMAZING)
+* [(Video) Git and GitHub tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk)
+* [GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+
 
