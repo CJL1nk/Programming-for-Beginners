@@ -2,7 +2,7 @@
 
 learn to use the 'puter
 
-# L1
+# L1 - Programming Basics
 
 So you know next to nothing other than computer has a screen and does some cool stuff <br />
 You made it here so I'm just gonna assume you at least know how to use that jawnson
@@ -79,7 +79,7 @@ One of the hardest parts of learning how to program is **learning how to learn i
 - [Python Documentation](https://docs.python.org/3/)
 - [StackOverflow](https://stackoverflow.com/questions) (Use this as a last resort for questions, sometimes people's solutions are a bit bogus)
 
-# L2
+# L2 - Improving our skills
 
 So you've made it this far, farther than most people really. By now, you should  have spent at least a couple weeks learning and writing mini programs and maybe even gone beyond. Ideally you should already know some of the stuff in here. This lesson is mainly focused on extending your Python skills and learning how to utilize some of the more useful features of the language, as well as getting comfortable with new workflow environments.
 
@@ -140,4 +140,18 @@ We've finally moved onto slightly more advanced projects yippee!! From here on o
 * [(Video) Git and GitHub tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk)
 * [GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/hello-world)
 
+# L3 - Objects and Basic Algorithms
 
+baka sigmitty
+
+This lesson should take approximately 2-3 weeks.
+
+### ----- What to learn (Ordered) -----
+- Classes (or Objects)
+- Object Oriented Programming
+- Bubble Sort, Insertion Sort, and Selection Sort
+
+---**What are these? (Also ordered)**---
+* Classes are a way to store what we call "Objects" in programming. A single object represents an entity with its own attributes and methods, meaning it can have multiple of its own variables and functions. An example of this would be creating a Person class, where it has a name, birth date, weight, height, and might have some functions like eat() that increase the person's weight. We can then create multiple instances of this person class, so we could have Person1, Person2, Person3, etc.. all with their own names, heights, weights and so on.
+* Object oriented programming (OOP) is the concept of designing our programs around objects.
+* Bubble Sort, Insertion Sort, and Selection Sort are 3 of some of the most basic sorting algorithms. Sorting algorithms look at a collection of comparable objects, usually integers, and sort them from smallest to largest. These three are some very basic ones, however we'll look at some more complex, faster ones when we get into algorithms and data structures.
