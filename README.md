@@ -149,9 +149,11 @@ This lesson should take approximately 2-3 weeks.
 ### ----- What to learn (Ordered) -----
 - Classes (or Objects)
 - Object Oriented Programming
+- Dictionaries (Hashmaps)
 - Bubble Sort, Insertion Sort, and Selection Sort
 
 ---**What are these? (Also ordered)**---
 * Classes are a way to store what we call "Objects" in programming. A single object represents an entity with its own attributes and methods, meaning it can have multiple of its own variables and functions. An example of this would be creating a Person class, where it has a name, birth date, weight, height, and might have some functions like eat() that increase the person's weight. We can then create multiple instances of this person class, so we could have Person1, Person2, Person3, etc.. all with their own names, heights, weights and so on.
 * Object oriented programming (OOP) is the concept of designing our programs around objects.
+* Dictionaries (or Hashmaps in other languages) are a way of associating 2 pieces of data together. For example, we could have a dictionary containing a class's grades. Each item in this dictionary has a key and a value, and in this case we'd see relationships like "John": 85.3 or "Martha": 92.0 where the key is the person's name and the value is their grade. We can then just access the dictionary by the persons name and immediately retrieve their grade. Unlike arrays, we can instantaneously access a key without having a search through the entire collection.
 * Bubble Sort, Insertion Sort, and Selection Sort are 3 of some of the most basic sorting algorithms. Sorting algorithms look at a collection of comparable objects, usually integers, and sort them from smallest to largest. These three are some very basic ones, however we'll look at some more complex, faster ones when we get into algorithms and data structures.
