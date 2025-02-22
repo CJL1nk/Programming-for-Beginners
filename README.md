@@ -4,7 +4,7 @@ learn to use the 'puter
 
 # L1
 
-So you know next to nothing other than computer has a screen and does some cool stuff
+So you know next to nothing other than computer has a screen and does some cool stuff <br />
 You made it here so I'm just gonna assume you at least know how to use that jawnson
 
 Our very first step here is to learn the basics of programming, preferably in an easy language like [Python](https://www.python.org/downloads/)
