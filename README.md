@@ -15,6 +15,8 @@ Next, we'll need an IDE, which is a little code area that'll help us edit, make,
 
 Before we get started, keep in mind that this is more of a learning guide than a tutorial itself. There'll still be a good amount of mini lessons I'll teach and whatnot, especially in the first few lessons, however this is mostly meant to be self-paced and taught. Multiple resources for learning given topics are given at the bottom of each lesson. Don't let that turn you away though, as the resources and information you find here is more valuable than you'll likely find anywhere else.
 
+This lesson should take ideally 3-4 weeks, at the very least 2-3.
+
 ### ----- What to learn (Ordered) -----
 - Basic programming functions like printing, performing operations on numbers, user input
 - If/Else statements
@@ -59,6 +61,8 @@ So you've developed a pretty basic understanding of programming. You know how to
 - Command Line Calculator, which prompts the user for an operation (add, subtract, multiply, divide) and 2 numbers to perform the operation on. The program should then print the output to the console and continue asking for an operation until the user enters "Q" or some other option to exit.
 - Fizzbuzz, a classic beginner programming challenge. Given a user entered integer **n**, for every positive integer **i <= n**, the task is to print "Fizz" if the number is divisible by 3, "Buzz" if it's divisible by 5, and "Fizzbuzz" if it's divisible by both 3 and 5.
 - Find largest number, which repeatedly prompts the user for a number until they enter a negative integer. From there, it should print out the sum of every integer entered as well as the largest, and maybe even smallest numbers entered. There are multiple ways to solve this one, try to start doing so by using an array, then explore other options.
+- Mad Libs generator, which asks the user for a series of nouns, verbs, adjectives, etc... and inserts them into a potentially funny story. [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs)
+- Number guessing game, which asks the user to enter a number between 1-100. If the number is too low, it prints "Too low" and if it's too high, it prints "Too high." Once they guess the correct number, start again with a new one.
 
 ### ----- Resources -----
 
@@ -79,10 +83,13 @@ One of the hardest parts of learning how to program is **learning how to learn i
 
 So you've made it this far, farther than most people really. By now, you should  have spent at least a couple weeks learning and writing mini programs and maybe even gone beyond. Ideally you should already know some of the stuff in here.
 
+This lesson should take approximately 1-2 weeks.
+
 ### ----- What to learn (Ordered) -----
 - File importing and multi-file programs
 - File reading and writing
 - Using files to store data
+- JSON
 - Basic command line commands
 - Package installation with pip
 - Documentation reading and writing
@@ -91,6 +98,7 @@ So you've made it this far, farther than most people really. By now, you should 
 ---**What are these? (Also ordered)**---
 * File importing lets you use functions written in other files. This is very helpful for organizing your code.
 * File reading allows us to read data from a file for our program to use, and file writing allows us to write data. This is incredibly useful for things like game save files or storing other data we might want to save across sessions.
+* JSON is a format that's commonly used to store various types of data. It's easy to understand and efficient, making it useful to store and retrieve somewhat large amounts of data.
 * The command line is your little terminal where you type in commands. This is arguably one of the most important things to learn early because you don't wanna be stuck as what I like to call a "clicker."
 * PIP is the default python package installer. It allows you to download packages or libraries, which are often large organized collections of code (or "modules") written by other people made to perform a variety of specific, related functions.
 * As explained before, documentation is how we keep track of our code in English, writing out what it does, how it works, how to use it, and what to expect from it.
@@ -100,14 +108,17 @@ One thing I wanna go over right away is how important learning how to write clea
 
 ### ----- Project Ideas -----
 
-We've finally moved onto slightly more advanced projects yippee!!
+We've finally moved onto slightly more advanced projects yippee!! From here on out, each of these projects will likely take a bit longer and require more thinking and troubleshooting. Don't let that demotivate you though, as that's really, truly, the only way to get better. I also recommend practicing writing cleaner, more organized code as you work on these projects.
+
+- Clean up old code. Look through some of your past projects and see how you can clean, document, and potentially maybe even optimize some of the past programs you've written. This is a very common thing to need to do, so getting some practice in now never hurts.
+- 
 
 ### ----- Resources -----
 
 * [Teclado importing tutorial](https://teclado.com/30-days-of-python/python-30-day-18-imports/)
 * [(Video) Tips to organize Python code](https://www.youtube.com/watch?v=e9yMYdnSlUA)
-* [(Video) How to structure your code](https://www.youtube.com/watch?v=6OSpm4uXqDw
-)
+* [(Video) How to structure your code](https://www.youtube.com/watch?v=6OSpm4uXqDw)
+* [JSON Tutorial](https://www.w3schools.com/js/js_json_intro.asp)
 * [Windows Terminal Documentation](https://learn.microsoft.com/en-us/windows/terminal/)
 * [Linux Terminal Documentation](https://linuxcommand.org/lc3_man_page_index.php)
 * [PIP Documentation](https://packaging.python.org/en/latest/tutorials/installing-packages/)
