@@ -70,7 +70,7 @@ One of the hardest parts of learning how to program is **learning how to learn i
 - [GeeksForGeeks](https://www.geeksforgeeks.org/)
 - [RealPython](https://realpython.com/)
 - [LeetCode](https://leetcode.com/)
-- [12 Hour Python Course](https://www.youtube.com/watch?v=ix9cRaBkVe0) (Please don't just watch this and assume you know everything)
+- [(Video) 12 Hour Python Course](https://www.youtube.com/watch?v=ix9cRaBkVe0) (Please don't just watch this and assume you know everything)
 - [(Playlist) Another Good Python Course](https://www.youtube.com/watch?v=mRMmlo_Uqcs&list=PLIhvC56v63ILPDA2DQBv0IKzqsWTZxCkp)
 - [Python Documentation](https://docs.python.org/3/)
 - [StackOverflow](https://stackoverflow.com/questions) (Use this as a last resort for questions, sometimes people's solutions are a bit bogus)
@@ -95,3 +95,23 @@ So you've made it this far, farther than most people really. By now, you should 
 * PIP is the default python package installer. It allows you to download packages or libraries, which are often large organized collections of code (or "modules") written by other people made to perform a variety of specific, related functions.
 * As explained before, documentation is how we keep track of our code in English, writing out what it does, how it works, how to use it, and what to expect from it.
 * Git is a command line application that lets us track the version history of our code. GitHub is a place where we can upload Git repositories, which are the collections of our code bases. This allows us to track progress and past versions of our code, as well as acts as an online backup just in case we somehow lose it.
+
+### ----- Project Ideas -----
+
+We've finally moved onto slightly more advanced projects yippee!!
+
+### ----- Resources -----
+
+[Teclado importing tutorial](https://teclado.com/30-days-of-python/python-30-day-18-imports/)
+[(Video) Tips to organize Python code](https://www.youtube.com/watch?v=e9yMYdnSlUA)
+[(Video) How to structure your code](https://www.youtube.com/watch?v=6OSpm4uXqDw
+)
+[Windows Terminal Documentation](https://learn.microsoft.com/en-us/windows/terminal/)
+[Linux Terminal Documentation](https://linuxcommand.org/lc3_man_page_index.php)
+[PIP Documentation](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+[(Video) How to document your code](https://www.youtube.com/watch?v=L7Ry-Fiij-M)
+[How to write good code documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation)
+[W3Schools Git tutorial](https://www.w3schools.com/GIT/) (Again please learn how to use this site it's AMAZING)
+[(Video) Git and GitHub tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk)
+[GitHub Docs](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+
