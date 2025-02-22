@@ -77,7 +77,7 @@ One of the hardest parts of learning how to program is **learning how to learn i
 
 # L2
 
-So you've made it this far, farther than most people really. By now, you should  have spent at least a couple weeks learning and writing mini programs and maybe even gone beyond.
+So you've made it this far, farther than most people really. By now, you should  have spent at least a couple weeks learning and writing mini programs and maybe even gone beyond. Ideally you should already know some of the stuff in here.
 
 ### ----- What to learn (Ordered) -----
 - File importing and multi-file programs
