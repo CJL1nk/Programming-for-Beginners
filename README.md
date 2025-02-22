@@ -106,6 +106,8 @@ This lesson should take approximately 1-2 weeks.
 
 One thing I wanna go over right away is how important learning how to write clean, organized, and well documented code is in this phase. It's really easy to be mindlessly writing code without thinking about how readable it is or how well it might be optimized. Whether you believe it or not, you **will** eventually forget exactly how some parts of your programs work and if there's no comments explaining anything and the code is messy, written like a bowl of noodles, you'll have a hard time figuring out what exactly does what and how things are linked together. As a result, this makes maintaining, expanding, and updating your code significantly harder.
 
+Another thing I think is important to learn somewhat early on is how to actually use the command line. At first sight it's a pretty scary thing, a lot of people view it as a dangerous section of your computer that you should never touch to avoid screwing something up. While this is kind of true to some degree, it's nearly impossible to do, especially on windows, without a good amount of knowledge and luck. In order to screw something up, it HAS to be intentional, so you probably won't need to worry too much. The reason I think it's such an important thing to learn now is mainly because of Git, as the commands you'll be running are all through the terminal unless you use something like GitHub desktop. On top of that, basic knowledge of it is necessary for more advanced programming languages like C++, which we'll learn a little later down the road. It's also very common for servers to run on Linux distributions that are terminal only, meaning there's no user interface or anything you can click on. This might seem a little silly at first, but you'll understand a little better later on once we learn how servers work and how resource intensive having a GUI could be. Bottom line, get comfortable with the command line, it's not as scary or hard as it might seem at first.
+
 ### ----- Project Ideas -----
 
 We've finally moved onto slightly more advanced projects yippee!! From here on out, each of these projects will likely take a bit longer and require more thinking and troubleshooting. Don't let that demotivate you though, as that's really, truly, the only way to get better. I also recommend practicing writing cleaner, more organized code as you work on these projects.
@@ -120,6 +122,7 @@ We've finally moved onto slightly more advanced projects yippee!! From here on o
 * [(Video) How to structure your code](https://www.youtube.com/watch?v=6OSpm4uXqDw)
 * [JSON Tutorial](https://www.w3schools.com/js/js_json_intro.asp)
 * [Windows Terminal Documentation](https://learn.microsoft.com/en-us/windows/terminal/)
+* [(Video) How to use the Windows terminal](https://www.youtube.com/watch?v=qnB044mHixc)
 * [Linux Terminal Documentation](https://linuxcommand.org/lc3_man_page_index.php)
 * [PIP Documentation](https://packaging.python.org/en/latest/tutorials/installing-packages/)
 * [(Video) How to document your code](https://www.youtube.com/watch?v=L7Ry-Fiij-M)
