@@ -81,7 +81,7 @@ One of the hardest parts of learning how to program is **learning how to learn i
 
 # L2 - Improving our skills
 
-So you've made it this far, farther than most people really. By now, you should  have spent at least a couple weeks learning and writing mini programs and maybe even gone beyond. Ideally you should already know some of the stuff in here. This lesson is mainly focused on extending your Python skills and learning how to utilize some of the more useful features of the language, as well as getting comfortable with new workflow environments.
+Wow, we've made it this far, farther than most people really. By now, you should  have spent at least a couple weeks learning and writing mini programs and maybe even gone beyond. Ideally you should already know some of the stuff in here. This lesson is mainly focused on extending your Python skills and learning how to utilize some of the more useful features of the language, as well as getting comfortable with new workflow environments.
 
 This lesson should take approximately 1-2 weeks.
 
@@ -177,3 +177,21 @@ With objects and classes finally out of the way, we've finally learned some of t
 * [(Video) Sorting with Selection, Bubble, and Insertion Sort](https://www.youtube.com/watch?v=HGk_ypEuS24)
 * [(Video) Selection and Bubble Sort](https://www.youtube.com/watch?v=ev8mz3p90g8)
 * [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
+
+# L4 - How Computers Actually do they thing and C++
+
+After what seems like absolutely FOREVER (hopefully) we've finally gotten to the point of where we can do most "simple" tasks that are given to us. You understand the basics of programming and can likely start to understand how larger scale apps, websites, and games might work. As awesome as this is, we still have a LOT more to learn, and this is where we start learning the actual really cool, fun stuff. At least in my opinion anyway. If you haven't researched it already, you're likely wondering how parts of our programs actually work, and what's going on behind the scenes. All we see is some English text and numbers on a screen, but how does a computer actually make sense of all that? We'll also be taking a look at our second programming language, C++.
+
+This lesson should take approximately 2-3 weeks.
+
+### ----- What to learn (Ordered) -----
+- Binary and Decimal
+- Converting Binary to Decimal
+- Counting with any base
+- Hexadecimal
+- 
+
+---**What are these? (Also ordered)**---
+* Binary are those silly 1s and 0s you see when people are talking about computers. Binary is essentially just counting in base 2, which is perfect for our computers because the electronics operate in 2 states, on or off. With binary, we can represent any type of data we want and use it in incredibly clever ways to make our computers do whatever we want.
+* Binary can be converted to Decimal, our number system, pretty easily. It's simply converting base 2 to base 10.
+* Number systems can be in any base, where the base is the number of different values each place in the number can be. Binary is base 2, so each place can either be 1 or 0. Decimal is base 10, so each place can be from 0-9, 10 total digits. Hexadecimal is base 16, so each place can be 0-F, where we count 1, 2, 3, ... , 8 , 9, A , B, C, D, E, F, a total of 16 values.
