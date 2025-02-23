@@ -89,7 +89,6 @@ This lesson should take approximately 1-2 weeks.
 - File importing and multi-file programs
 - File reading and writing
 - Using files to store data
-- JSON
 - Error handling
 - Edge cases
 - Basic command line commands
@@ -100,7 +99,6 @@ This lesson should take approximately 1-2 weeks.
 ---**What are these? (Also ordered)**---
 * File importing lets you use functions written in other files. This is very helpful for organizing your code.
 * File reading allows us to read data from a file for our program to use, and file writing allows us to write data. This is incredibly useful for things like game save files or storing other data we might want to save across sessions.
-* JSON is a format that's commonly used to store various types of data. It's easy to understand and efficient, making it useful to store and retrieve somewhat large amounts of data.
 * Error handling is how we deal with errors that might happen in our code. An example of this is someone typing in some bogus into our menu like "rgtsrgsdf" when the options are numbers from 1-5. We need to be able to handle this and tell them it's an invalid option, or deal with it and move on with some default value instead of our program just crashing.
 * Edge cases are odd, out of the ordinary values our program might receive from the user or anywhere else that might be returning some value. For example, we have a program that asks us to enter 2 numbers to determine which one is greater. What happens if they're the same number? What happens if one of them is extremely huge, or extremely small? What happens if somehow the user enters a null value?
 * The command line is your little terminal where you type in commands. This is arguably one of the most important things to learn early because you don't wanna be stuck as what I like to call a "clicker."
@@ -151,6 +149,7 @@ This lesson should take approximately 2-3 weeks.
 - Class methods
 - Object Oriented Programming
 - Dictionaries (Hashmaps)
+- JSON
 - Bubble Sort, Insertion Sort, and Selection Sort
 
 ---**What are these? (Also ordered)**---
@@ -158,6 +157,7 @@ This lesson should take approximately 2-3 weeks.
 * Class methods are functions within a class designed to perform specific functions on its parent class. Usually they involve simply modifying or returning values, but can be used in other clever ways too.
 * Object oriented programming (OOP) is the concept of designing our programs around objects.
 * Dictionaries (or Hashmaps in other languages) are a way of associating 2 pieces of data together. For example, we could have a dictionary containing a class's grades. Each item in this dictionary has a key and a value, and in this case we'd see relationships like {"John": 85.3} or {"Martha": 92.0} where the key is the person's name and the value is their grade. We can then just access the dictionary by the persons name and immediately retrieve their grade. Unlike arrays, we can instantaneously access a key without having a search through the entire collection.
+* JSON is a format that's commonly used to store various types of data. It's easy to understand and efficient, making it useful to store and retrieve somewhat large amounts of data.
 * Bubble Sort, Insertion Sort, and Selection Sort are 3 of some of the most basic sorting algorithms. Sorting algorithms look at a collection of comparable objects, usually integers, and sort them from smallest to largest. These three are some very basic ones, however we'll look at some more complex, faster ones when we get into algorithms and data structures.
 
 ### ----- Project Ideas -----
