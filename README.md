@@ -154,6 +154,7 @@ This lesson should take approximately 2-3 weeks.
 - Dictionaries (Hashmaps)
 - JSON
 - Bubble Sort, Insertion Sort, and Selection Sort
+- Recursive functions
 
 ---**What are these? (Also ordered)**---
 * Classes are a way to store what we call "Objects" in programming. A single object represents an entity with its own attributes and methods, meaning it can have multiple of its own variables and functions. An example of this would be creating a Person class, where it has a name, birth date, weight, height, and might have some functions like eat() that increase the person's weight. We can then create multiple instances of this person class, so we could have Person1, Person2, Person3, etc.. all with their own names, heights, weights and so on.
@@ -162,12 +163,15 @@ This lesson should take approximately 2-3 weeks.
 * Dictionaries (or Hashmaps in other languages) are a way of associating 2 pieces of data together. For example, we could have a dictionary containing a class's grades. Each item in this dictionary has a key and a value, and in this case we'd see relationships like {"John": 85.3} or {"Martha": 92.0} where the key is the person's name and the value is their grade. We can then just access the dictionary by the persons name and immediately retrieve their grade. Unlike arrays, we can instantaneously access a key without having a search through the entire collection.
 * JSON is a format that's commonly used to store various types of data. It's easy to understand and efficient, making it useful to store and retrieve somewhat large amounts of data.
 * Bubble Sort, Insertion Sort, and Selection Sort are 3 of some of the most basic sorting algorithms. Sorting algorithms look at a collection of comparable objects, usually integers, and sort them from smallest to largest. These three are some very basic ones, however we'll look at some more complex, faster ones when we get into algorithms and data structures.
+* Recursive functions are functions that call themselves one or more times.
 
 ### ----- Project Ideas -----
 
 With objects and classes finally out of the way, we've finally learned some of the most useful features of programming. Of course, these features aren't very useful to us unless we practice and make good use of em, so get to work and make some cool stuff. Be sure to handle any errors or edge cases that may occur so your program doesn't crash or break.
 
 - Employee database, which contains a class Employee that holds the employees name, address, and phone number. Each employee is saved into a dictionary {EmployeeID: Employee} which is saved to a json file. Upon start, the program should load all the current employees from the json into the employees dictionary, and employees should be able to be added or removed.
+- Fibonacci sequence generator, which generates and prints the first n bits of the Fibonacci sequence using a recursive function.
+- Receipt generator, which lets a user pick out multiple items from a store all with their own unique names, prices, and item IDs and generates a formatted receipt with the total + tax. The receipt should then save to a file and the user should be able to view old receipts they had checked out in the past.
 
 ### ----- Resources -----
 
@@ -180,6 +184,8 @@ With objects and classes finally out of the way, we've finally learned some of t
 * [(Video) Sorting with Selection, Bubble, and Insertion Sort](https://www.youtube.com/watch?v=HGk_ypEuS24)
 * [(Video) Selection and Bubble Sort](https://www.youtube.com/watch?v=ev8mz3p90g8)
 * [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
+* [W3Schools Recursion](https://www.w3schools.com/python/gloss_python_function_recursion.asp)
+* [(Video) Recursion](https://www.youtube.com/watch?v=m1Fjdnj_Mds)
 
 # L4 - Binary and Hexadecimal
 
@@ -217,7 +223,7 @@ There aren't really many projects you could really do with this information, but
 * [(Video) How to Convert Hexadecimal to Decimal](https://www.youtube.com/watch?v=pg-HEGBpCQk)
 * [Number in Different Bases](https://mathcenter.oxford.emory.edu/site/math125/bases/)
 
-# L5 - C++ and Memory
+# L5 - Basic C++ and Memory
 Now that we have a basic understanding of binary and hexadecimal, we can finally move on to our next programming language. You may have heard scary things about C++ with how hard and different it is, but after a bit of practice and understanding of how the language and computers work, it becomes a breeze.
 
 To start off with C++, we'll need a slightly more complex IDE. You can use VSCode, but I highly advise against it because that's like using Windows Notepad for Python. I recommend for beginners you use [CLion](https://www.jetbrains.com/clion/download/#section=windows), however you can also use [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) which is a bit more complex.
@@ -226,7 +232,9 @@ Next, we'll need a **compiler**, which is what translates our code into machine 
 
 I highly recommend watching step by step tutorials for learning how to install things correctly, which I will link below in resources.
 
-This lesson should take 2-3 weeks.
+A lot more command line knowledge is gonna be needed from here on out, so I recommend if you're a bit rusty or didn't learn it very well in  the first place, you backtrack a bit and clean up your knowledge.+
+
+This lesson should take 2-4 weeks.
 
 ### ----- What to learn (Ordered) -----
 - Basics of C++, listed below
@@ -255,4 +263,4 @@ This lesson should take 2-3 weeks.
 * Unsigned integers are integers that cannot be negative, and will roll back to 0 once they hit their size limit. Signed integers, on the other hand, can be negative, and will roll to it's lowest value when they hit their size limit.
 * Two's complement is the method we use to store negative numbers in binary. Not a super deep understanding of this is required just yet, but it's a good thing to know.
 
-This probably seems like a LOT to learn, and trust me, it is. We're entering almost a whole new world of computers here so don't expect it to be easy. It **WILL** be frustrating, we've all been there before. But please do remember, you have infinite resources on the internet and even me if you get stuck, so feel free to contact if you have any questions :)
+This probably seems like a LOT to learn, and trust me, it is. We're entering almost a whole new world of computers here so don't expect it to be easy. It **WILL** be frustrating, we've all been there before. There will be a lot of time where you feel absolutely stuck or like nothing is making any sense and that's completely normal. Don't be afraid to step back backtrack a little if there's a concept you aren't quite understanding or seem to be too advanced. But please do remember, you have infinite resources on the internet and even me if you get stuck, so feel free to contact if you have any questions :)
