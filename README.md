@@ -24,6 +24,8 @@ This lesson should take ideally 3-4 weeks, at the very least 2-3.
 - Variable data types like int, string, float/double
 - Arrays
 - Loops and the different ways they're utilized
+- Variable scope
+- Basic boolean algebra
 - Basic understanding of documentation websites
 - Basic problem breakdown and solving skills
 - Read everything below, ESPECIALLY including ***How do I “Problem Solve?”***
@@ -35,6 +37,8 @@ This lesson should take ideally 3-4 weeks, at the very least 2-3.
 * Variable data types are the type of data you're storing. For example, you couldn't have "B" in an integer variable because an integer only stores a number.
 * Arrays allow you to store a collection of multiple values in a single variable.
 * Loops continuously run the same block of code until a certain of code is meant. For example, increment a number by 3 until the number is greater than 20.
+* The scope of a variable is the "region" of code a variable can be accessed by.
+* Boolean algebra is a special type of math that deals with only True/False. It's more important later on, but is one of the foundations of computer science and engineering itself.
 * Documentation websites are where you'll often find yourself when learning new programming languages or when using libraries. They tell you how the code works, how to use it, and any quirks it may have.
 * Problem solving skills are explained below.
 
@@ -76,6 +80,8 @@ One of the hardest parts of learning how to program is **learning how to learn i
 - [LeetCode](https://leetcode.com/)
 - [(Video) 12 Hour Python Course](https://www.youtube.com/watch?v=ix9cRaBkVe0) (Please don't just watch this and assume you know everything)
 - [(Playlist) Another Good Python Course](https://www.youtube.com/watch?v=mRMmlo_Uqcs&list=PLIhvC56v63ILPDA2DQBv0IKzqsWTZxCkp)
+- [Boolean Algebra Basics](https://www.allaboutcircuits.com/technical-articles/boolean-basics/)
+- [(Video) Boolean Algebra in 13 Minutes](https://www.youtube.com/watch?v=cTjFy18SjRc)
 - [Python Documentation](https://docs.python.org/3/)
 - [StackOverflow](https://stackoverflow.com/questions) (Use this as a last resort for questions, sometimes people's solutions are a bit bogus)
 
@@ -94,6 +100,7 @@ This lesson should take approximately 1-2 weeks.
 - Edge cases
 - Basic command line commands
 - Package installation with pip
+- Using packages and modules
 - Documentation reading and writing
 - Git and GitHub
 
@@ -105,8 +112,9 @@ This lesson should take approximately 1-2 weeks.
 * Edge cases are odd, out of the ordinary values our program might receive from the user or anywhere else that might be returning some value. For example, we have a program that asks us to enter 2 numbers to determine which one is greater. What happens if they're the same number? What happens if one of them is extremely huge, or extremely small? What happens if somehow the user enters a null value?
 * The command line is your little terminal where you type in commands. This is arguably one of the most important things to learn early because you don't wanna be stuck as what I like to call a "clicker."
 * PIP is the default python package installer. It allows you to download packages or libraries, which are often large organized collections of code (or "modules") written by other people made to perform a variety of specific, related functions.
+* Packages, modules, and libraries all mean basically the same thing in this context. It's very common to need to use other people's libraries to assist in writing your own code.
 * As explained before, documentation is how we keep track of our code in English, writing out what it does, how it works, how to use it, and what to expect from it.
-* Git is a command line application that lets us track the version history of our code. GitHub is a place where we can upload Git repositories, which are the collections of our code bases. This allows us to track progress and past versions of our code, as well as acts as an online backup just in case we somehow lose it.
+* Git is a command line application that lets us track the version history of our code. GitHub is a place where we can upload Git repositories, which are the collections of our code bases. This allows us to track progress and past versions of our code, as well as acts as an online backup just in case we somehow lose it. There are other Git hosting services such as GitLab, SourceForge, Amazon AWS, and others, however GitHub and GitLab are the two mainstream ones.
 
 One thing I wanna go over right away is how important learning how to write clean, organized, and well documented code is in this phase. It's really easy to be mindlessly writing code without thinking about how readable it is or how well it might be optimized. Whether you believe it or not, you **will** eventually forget exactly how some parts of your programs work and if there's no comments explaining anything and the code is messy, written like a bowl of noodles, you'll have a hard time figuring out what exactly does what and how things are linked together. As a result, this makes maintaining, expanding, and updating your code significantly harder.
 
@@ -135,6 +143,7 @@ We've finally moved onto slightly more advanced projects yippee!! From here on o
 * [(Video) How to use the Windows terminal](https://www.youtube.com/watch?v=qnB044mHixc)
 * [Linux Terminal Documentation](https://linuxcommand.org/lc3_man_page_index.php)
 * [PIP Documentation](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+* [(Video) External libraries](https://www.youtube.com/watch?v=gzsgtLMK1O0)
 * [(Video) How to document your code](https://www.youtube.com/watch?v=L7Ry-Fiij-M)
 * [How to write good code documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation)
 * [W3Schools Git tutorial](https://www.w3schools.com/GIT/) (Again please learn how to use this site it's AMAZING)
@@ -232,18 +241,19 @@ Next, we'll need a **compiler**, which is what translates our code into machine 
 
 I highly recommend watching step by step tutorials for learning how to install things correctly, which I will link below in resources.
 
-A lot more command line knowledge is gonna be needed from here on out, so I recommend if you're a bit rusty or didn't learn it very well in  the first place, you backtrack a bit and clean up your knowledge.+
+A lot more command line knowledge is gonna be needed from here on out, so I recommend if you're a bit rusty or didn't learn it very well in  the first place, you backtrack a bit and clean up your knowledge.
 
 This lesson should take 2-4 weeks.
 
 ### ----- What to learn (Ordered) -----
 - Basics of C++, listed below
-- Declaring variables, variable data types, performing basic operations like addition, subtraction, and so on
+- Declaring variables, variable data types, constants, performing basic operations like addition, subtraction, and so on
 - If/Else statements
 - Functions, return types, parameters and arguments
 - Loops
 - Basic arrays
 - Printing to console with cout
+- Inputting with cin
 - The C++ compiler
 - Compilers vs Interpreters
 - Memory, RAM, and how things are stored there
@@ -258,9 +268,10 @@ This lesson should take 2-4 weeks.
 * Loops are also very similar to how they work in Python, however for loops have slightly different syntax.
 * Default arrays in C++ must have a declared size. The total number of items in the array cannot exceed this size, and our program will crash if it does. This problem is fixed with **vectors**, which are arrays with practically infinite size but we'll take a look at those once we move into more advanced C++.
 * Instead of using print() like in Python, we use cout, the C++ standard output stream which lets us easily concatenate and output things to the console.
+* Instead of using input() like Python, we use cin instead.
 * The compiler looks at our code and translates it into machine code, or **Assembly**. This will produce an executable file for us to click and run. On the other hand, an interpreter, which is what Python uses, interprets and executes our code line by line.
 * Our computers need some way of actually storing all the numbers and letters we're seeing on screen, as well as all the instructions written in our code. It stores most of this in the RAM (Random Access Memory), in the form of binary or hexadecimal. Different data types take up different amounts of space. For instance by default, an integer variable takes up 32 bits, or 4 bytes, in memory.
 * Unsigned integers are integers that cannot be negative, and will roll back to 0 once they hit their size limit. Signed integers, on the other hand, can be negative, and will roll to it's lowest value when they hit their size limit.
 * Two's complement is the method we use to store negative numbers in binary. Not a super deep understanding of this is required just yet, but it's a good thing to know.
 
-This probably seems like a LOT to learn, and trust me, it is. We're entering almost a whole new world of computers here so don't expect it to be easy. It **WILL** be frustrating, we've all been there before. There will be a lot of time where you feel absolutely stuck or like nothing is making any sense and that's completely normal. Don't be afraid to step back backtrack a little if there's a concept you aren't quite understanding or seem to be too advanced. But please do remember, you have infinite resources on the internet and even me if you get stuck, so feel free to contact if you have any questions :)
+This probably seems like a LOT to learn, and trust me, it is. We're entering almost a whole new world of computers here so don't expect it to be easy. It **WILL** be frustrating, we've all been there before. There will be multiple times where you feel absolutely stuck or like nothing is making any sense and that's completely normal. Don't be afraid to step back backtrack a little if there's a concept you aren't quite understanding or seem to be too advanced. But please do remember, you have infinite resources on the internet and even me if you get stuck, so feel free to contact if you have any questions :)
