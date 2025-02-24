@@ -89,6 +89,7 @@ This lesson should take approximately 1-2 weeks.
 - File importing and multi-file programs
 - File reading and writing
 - Using files to store data
+- String manipulation methods
 - Error handling
 - Edge cases
 - Basic command line commands
@@ -99,6 +100,7 @@ This lesson should take approximately 1-2 weeks.
 ---**What are these? (Also ordered)**---
 * File importing lets you use functions written in other files. This is very helpful for organizing your code.
 * File reading allows us to read data from a file for our program to use, and file writing allows us to write data. This is incredibly useful for things like game save files or storing other data we might want to save across sessions.
+* Python provides us with lots of different functions to manipulate, cut, concatenate, edit, and reads strings. These are incredibly useful to learn earlier on.
 * Error handling is how we deal with errors that might happen in our code. An example of this is someone typing in some bogus into our menu like "rgtsrgsdf" when the options are numbers from 1-5. We need to be able to handle this and tell them it's an invalid option, or deal with it and move on with some default value instead of our program just crashing.
 * Edge cases are odd, out of the ordinary values our program might receive from the user or anywhere else that might be returning some value. For example, we have a program that asks us to enter 2 numbers to determine which one is greater. What happens if they're the same number? What happens if one of them is extremely huge, or extremely small? What happens if somehow the user enters a null value?
 * The command line is your little terminal where you type in commands. This is arguably one of the most important things to learn early because you don't wanna be stuck as what I like to call a "clicker."
@@ -126,6 +128,7 @@ We've finally moved onto slightly more advanced projects yippee!! From here on o
 * [(Video) Tips to organize Python code](https://www.youtube.com/watch?v=e9yMYdnSlUA)
 * [(Video) How to structure your code](https://www.youtube.com/watch?v=6OSpm4uXqDw)
 * [JSON Tutorial](https://www.w3schools.com/js/js_json_intro.asp)
+* [W3Schools String Methods](https://www.w3schools.com/python/python_ref_string.asp)
 * [(Video) Error handling](https://www.youtube.com/watch?v=Xe-oxpOWeE0)
 * [(Video) Edge cases](https://www.youtube.com/watch?v=ZDfP3ZCaZMc)
 * [Windows Terminal Documentation](https://learn.microsoft.com/en-us/windows/terminal/)
@@ -213,3 +216,43 @@ There aren't really many projects you could really do with this information, but
 * [What is Hexadecimal](https://www.techtarget.com/whatis/definition/hexadecimal)
 * [(Video) How to Convert Hexadecimal to Decimal](https://www.youtube.com/watch?v=pg-HEGBpCQk)
 * [Number in Different Bases](https://mathcenter.oxford.emory.edu/site/math125/bases/)
+
+# L5 - C++ and Memory
+Now that we have a basic understanding of binary and hexadecimal, we can finally move on to our next programming language. You may have heard scary things about C++ with how hard and different it is, but after a bit of practice and understanding of how the language and computers work, it becomes a breeze.
+
+To start off with C++, we'll need a slightly more complex IDE. You can use VSCode, but I highly advise against it because that's like using Windows Notepad for Python. I recommend for beginners you use [CLion](https://www.jetbrains.com/clion/download/#section=windows), however you can also use [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) which is a bit more complex.
+
+Next, we'll need a **compiler**, which is what translates our code into machine code, something our computer can actually execute. I'm not gonna explain too much now because it gets a bit complicated, but we'll use [GCC](https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download).
+
+I highly recommend watching step by step tutorials for learning how to install things correctly, which I will link below in resources.
+
+This lesson should take 2-3 weeks.
+
+### ----- What to learn (Ordered) -----
+- Basics of C++, listed below
+- Declaring variables, variable data types, performing basic operations like addition, subtraction, and so on
+- If/Else statements
+- Functions, return types, parameters and arguments
+- Loops
+- Basic arrays
+- Printing to console with cout
+- The C++ compiler
+- Compilers vs Interpreters
+- Memory, RAM, and how things are stored there
+- Unsigned vs signed integers
+- Two's complement binary, (Signed integers)
+
+---**What are these? (Also ordered)**---
+* C++ is a **low level language**, meaning it works much "closer" to the computers hardware. It gets translated, or in this case, "compiled," directly into machine code that our computers can execute. You'll see this in the form of an exe, which is simply just an executable file.
+* We already know what variables are, however in C++ they're a little bit different. We **need to declare a data type** for each variable like int, double, bool, string, and so on. As expected, integer variables cannot hold strings, and double, or "float" variables can't hold a boolean. **Each variable can only hold the data type it was originally declared to have**.
+* If/Else statements work basically just like they do in Python, and let our code make decisions based off given conditions.
+* Functions are also very similar to Python, however in C++ they have a **return type**. If they return an integer, the return type must be int, and if they return nothing, they have what's called a **void** return type.
+* Loops are also very similar to how they work in Python, however for loops have slightly different syntax.
+* Default arrays in C++ must have a declared size. The total number of items in the array cannot exceed this size, and our program will crash if it does. This problem is fixed with **vectors**, which are arrays with practically infinite size but we'll take a look at those once we move into more advanced C++.
+* Instead of using print() like in Python, we use cout, the C++ standard output stream which lets us easily concatenate and output things to the console.
+* The compiler looks at our code and translates it into machine code, or **Assembly**. This will produce an executable file for us to click and run. On the other hand, an interpreter, which is what Python uses, interprets and executes our code line by line.
+* Our computers need some way of actually storing all the numbers and letters we're seeing on screen, as well as all the instructions written in our code. It stores most of this in the RAM (Random Access Memory), in the form of binary or hexadecimal. Different data types take up different amounts of space. For instance by default, an integer variable takes up 32 bits, or 4 bytes, in memory.
+* Unsigned integers are integers that cannot be negative, and will roll back to 0 once they hit their size limit. Signed integers, on the other hand, can be negative, and will roll to it's lowest value when they hit their size limit.
+* Two's complement is the method we use to store negative numbers in binary. Not a super deep understanding of this is required just yet, but it's a good thing to know.
+
+This probably seems like a LOT to learn, and trust me, it is. We're entering almost a whole new world of computers here so don't expect it to be easy. It **WILL** be frustrating, we've all been there before. But please do remember, you have infinite resources on the internet and even me if you get stuck, so feel free to contact if you have any questions :)
