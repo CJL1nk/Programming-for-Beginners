@@ -181,6 +181,7 @@ With objects and classes finally out of the way, we've finally learned some of t
 - Employee database, which contains a class Employee that holds the employees name, address, and phone number. Each employee is saved into a dictionary {EmployeeID: Employee} which is saved to a json file. Upon start, the program should load all the current employees from the json into the employees dictionary, and employees should be able to be added or removed.
 - Fibonacci sequence generator, which generates and prints the first n bits of the Fibonacci sequence using a recursive function.
 - Receipt generator, which lets a user pick out multiple items from a store all with their own unique names, prices, and item IDs and generates a formatted receipt with the total + tax. The receipt should then save to a file and the user should be able to view old receipts they had checked out in the past.
+- Write a sorting algorithm, one of the three basic ones we learned about here. If possible, try and discover any small optimizations you could add to the algorithm for best running time.
 
 ### ----- Resources -----
 
