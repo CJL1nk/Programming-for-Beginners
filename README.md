@@ -178,20 +178,38 @@ With objects and classes finally out of the way, we've finally learned some of t
 * [(Video) Selection and Bubble Sort](https://www.youtube.com/watch?v=ev8mz3p90g8)
 * [Sorting Algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
 
-# L4 - How Computers Actually do they thing and C++
+# L4 - Binary and Hexadecimal
 
-After what seems like absolutely FOREVER (hopefully) we've finally gotten to the point of where we can do most "simple" tasks that are given to us. You understand the basics of programming and can likely start to understand how larger scale apps, websites, and games might work. As awesome as this is, we still have a LOT more to learn, and this is where we start learning the actual really cool, fun stuff. At least in my opinion anyway. If you haven't researched it already, you're likely wondering how parts of our programs actually work, and what's going on behind the scenes. All we see is some English text and numbers on a screen, but how does a computer actually make sense of all that? We'll also be taking a look at our second programming language, C++.
+After what seems like absolutely FOREVER (hopefully) we've finally gotten to the point of where we can do most "simple" tasks that are given to us. You understand the basics of programming and can likely start to understand how larger scale apps, websites, and games might work. As awesome as this is, we still have a LOT more to learn, and this is where we start learning the actual really cool, fun stuff. At least in my opinion anyway. If you haven't researched it already, you're likely wondering how parts of our programs actually work, and what's going on behind the scenes. All we see is some English text and numbers on a screen, but how does a computer actually make sense of all that? In this lesson, we'll be looking at binary and hexadecimal and the math behind them, which are 2 of the key number systems to learn to understand the workings of computers.
 
-This lesson should take approximately 2-3 weeks.
+This lesson should take no more than a couple days probably.
 
 ### ----- What to learn (Ordered) -----
 - Binary and Decimal
 - Converting Binary to Decimal
 - Counting with any base
 - Hexadecimal
-- 
+- Binary addition, subtraction, and multiplication
 
 ---**What are these? (Also ordered)**---
 * Binary are those silly 1s and 0s you see when people are talking about computers. Binary is essentially just counting in base 2, which is perfect for our computers because the electronics operate in 2 states, on or off. With binary, we can represent any type of data we want and use it in incredibly clever ways to make our computers do whatever we want.
 * Binary can be converted to Decimal, our number system, pretty easily. It's simply converting base 2 to base 10.
 * Number systems can be in any base, where the base is the number of different values each place in the number can be. Binary is base 2, so each place can either be 1 or 0. Decimal is base 10, so each place can be from 0-9, 10 total digits. Hexadecimal is base 16, so each place can be 0-F, where we count 1, 2, 3, ... , 8 , 9, A , B, C, D, E, F, a total of 16 values.
+* Just like the decimal system, we can do simple math functions in binary, almost even easier than in decimal.
+
+### ----- Project Ideas -----
+There aren't really many projects you could really do with this information, but I'll assign some practice stuff. You can use online converters to check your work.
+* Convert 16 and 55 to binary, then add them together.
+* Convert 78 to binary, then to hexadecimal.
+* Convert E6 from hexadecimal, to binary and decimal.
+* Convert 1064 to binary and multiply it by 2 (There's a special little secret to this one !! Find it somewhere in [here](https://www.sciencedirect.com/topics/engineering/binary-multiplication))
+* Convert 5F and 19 to binary and subtract them
+
+### ----- Resources -----
+* [Introduction to Binary](https://www.cmu.edu/gelfand/lgc-educational-media/digital-education-modules/dem-documents/new-the-world-of-the-internet-handouts.pdf)
+* [(Video) How to Convert Decimal to Binary](https://www.youtube.com/watch?v=VLflTjd3lWA)
+* [(Video) Binary Addition and Subtraction](https://www.youtube.com/watch?v=C5EkxfNEMjE)
+* [Binary Multiplication](https://www.sciencedirect.com/topics/engineering/binary-multiplication)
+* [What is Hexadecimal](https://www.techtarget.com/whatis/definition/hexadecimal)
+* [(Video) How to Convert Hexadecimal to Decimal](https://www.youtube.com/watch?v=pg-HEGBpCQk)
+* [Number in Different Bases](https://mathcenter.oxford.emory.edu/site/math125/bases/)
