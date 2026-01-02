@@ -199,6 +199,18 @@ With objects and classes finally out of the way, we've finally learned some of t
 * [W3Schools Recursion](https://www.w3schools.com/python/gloss_python_function_recursion.asp)
 * [(Video) Recursion](https://www.youtube.com/watch?v=m1Fjdnj_Mds)
 
+<br>
+
+## !! STOP !! : Breakpoint
+
+From here, there's a few different routes you can go. I would **always** recommend you just read this document from the top down, as it teaches things in what I believe to be the correct priority however if you'd like to skip ahead, you can. Starting in the next lesson, we'll be diving into the low-level aspects of computers and writing some code "more close to the cpu." This is definitely where things can start getting pretty hard, however, **real-world useful knowledge** will start to come to fruition. If you're less interested in this side of computers, that's okay, it isn't *completely* necessary knowledge to dive into some other Computer Science aspects, however it's quite useful and will **often lead to much better-written and optimized software**. Along with this, there are things we call "black boxes" in programming. If you haven't heard of that term already, it's a general term for some function, library, or any interface where we feed it input, and it gives us output without us knowing what's going on behind the scenes. Often times, it's **very** important to know *exactly* what the interfaces we use are doing, whether it's some simple function or an entire piece of software. Without knowing low level computing, there will be a LOT of stuff remaining as black boxes to you which could **very well** lead to your detriment. Nevertheless, here's a list of topics you're free to skip to if you feel interested:
+
+- [Websites](#l100---html-and-css)
+- [Databases (Generally used WITH websites)](#l200---databases)
+- [Networking Basics](#l300---networking-basics)
+
+
+
 # L4 - Binary and Hexadecimal
 
 After what seems like absolutely FOREVER (hopefully) we've finally gotten to the point of where we can do most "simple" tasks that are given to us. You understand the basics of programming and can likely start to understand how larger scale apps, websites, and games might work. As awesome as this is, we still have a LOT more to learn, and this is where we start learning the actual really cool, fun stuff. At least in my opinion anyway. If you haven't researched it already, you're likely wondering how parts of our programs actually work, and what's going on behind the scenes. All we see is some English text and numbers on a screen, but how does a computer actually make sense of all that? In this lesson, we'll be looking at binary and hexadecimal and the math behind them, which are 2 of the key number systems to learn to understand the workings of computers.
@@ -278,3 +290,22 @@ This lesson should take 2-4 weeks.
 * Two's complement is the method we use to store negative numbers in binary. Not a super deep understanding of this is required just yet, but it's a good thing to know.
 
 This probably seems like a LOT to learn, and trust me, it is. We're entering almost a whole new world of computers here so don't expect it to be easy. It **WILL** be frustrating, we've all been there before. There will be multiple times where you feel absolutely stuck or like nothing is making any sense and that's completely normal. Don't be afraid to step back backtrack a little if there's a concept you aren't quite understanding or seem to be too advanced. But please do remember, you have infinite resources on the internet and even me if you get stuck, so feel free to contact if you have any questions :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# L100 - HTML and CSS
+
+# L200 - Databases
+
+# L300 - Networking Basics
