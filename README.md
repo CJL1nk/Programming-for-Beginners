@@ -210,8 +210,11 @@ With objects and classes finally out of the way, we've finally learned some of t
 From here, there's a few different routes you can go. I would **always** recommend you just read this document from the top down, as it teaches things in what I believe to be the correct priority however if you'd like to skip ahead, you can. Starting in the next lesson, we'll be diving into the low-level aspects of computers and writing some code "more close to the cpu." This is definitely where things can start getting pretty hard, however, **real-world useful knowledge** will start to come to fruition. If you're less interested in this side of computers, that's okay, it isn't *completely* necessary knowledge to dive into some other Computer Science aspects, however it's quite useful and will **often lead to much better-written and optimized software**. Along with this, there are things we call "black boxes" in programming. If you haven't heard of that term already, it's a general term for some function, library, or any interface where we feed it input, and it gives us output without us knowing what's going on behind the scenes. Often times, it's **very** important to know *exactly* what the interfaces we use are doing, whether it's some simple function or an entire piece of software. Without knowing low level computing, there will be a LOT of stuff remaining as black boxes to you which could **very well** lead to your detriment. Nevertheless, here's a list of topics you're free to skip to if you feel interested:
 
 - [Websites](#l100---html-and-css)
-- [Databases (Generally used WITH websites)](#l200---databases)
+- [Databases](#l200---databases) (Generally used WITH websites)
 - [Networking Basics](#l300---networking-basics)
+- [Linux](#l400---linux)
+- [Server Systems](#l500---server-systems) (Tends to heavily rely on knowledge from previous 4 links)
+- [Programming Languages](#l600---programming-languages) (Not all will really make sense unless you learn low-level)
 
 
 
@@ -313,3 +316,9 @@ This probably seems like a LOT to learn, and trust me, it is. We're entering alm
 # L200 - Databases
 
 # L300 - Networking Basics
+
+# L400 - Linux
+
+# L500 - Server Systems
+
+# L600 - Programming Languages
