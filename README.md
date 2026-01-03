@@ -85,7 +85,7 @@ One of the hardest parts of learning how to program is **learning how to learn i
 - [Boolean Algebra Basics](https://www.allaboutcircuits.com/technical-articles/boolean-basics/)
 - [(Video) Boolean Algebra in 13 Minutes](https://www.youtube.com/watch?v=cTjFy18SjRc)
 - [Python Documentation](https://docs.python.org/3/)
-- [(Playlist) Hardvard CS50 courses](https://www.youtube.com/watch?v=h6lqxDwUmJQ&list=PLhQjrBD2T383q7Vn8QnTsVgSvyLpsqL_R) (Hard for beginners, good material though)
+- [(Playlist) Harvard CS50 courses](https://www.youtube.com/watch?v=h6lqxDwUmJQ&list=PLhQjrBD2T383q7Vn8QnTsVgSvyLpsqL_R) (Hard for beginners, good material though)
 - [StackOverflow](https://stackoverflow.com/questions) (Use this as a last resort for questions, sometimes people's solutions are a bit bogus and rude)
 
 # L2 - Improving our skills
@@ -396,7 +396,7 @@ C is a great choice if you're planning on writing any smaller scale low-level sy
 - Compiles for anything, everywhere.
 
 #### **Cons:**
-- No memory safety features at all, meaning manual memory allocaiton and freeing can also lead to severe safety issues, crashing, and memory leaks if not handled correctly.
+- No memory safety features at all, meaning manual memory allocation and freeing can also lead to severe safety issues, crashing, and memory leaks if not handled correctly.
 - Can be difficult to debug.
 - Much slower development at a large scale.
 
