@@ -32,17 +32,17 @@ This lesson should take ideally 3-4 weeks, at the very least 2-3.
 
 ---**What are these? (Also ordered)**---
 * Basic programming functions are just the most commonly, easy to use coding functions. Things that let you add numbers, print stuff to the console, and let the user type things in.
-* If/Else statements are used to make your program run different code based off given conditions. For example, if a number is less than 5, say "Hello" to console, else, if it's greater than 5, write "Goodbye" to console.
-* Functions let you "save" a block of code and call it whenever desired, multiple times even.
+* If/Else statements are used to make your program run different code based off given conditions. For example, if a number is less than 5, write "Hello" to console, else, if it's greater than 5, write "Goodbye" to console.
+* Functions let you "save" a block of code and call it whenever desired, multiple times even. This is useful when you need to repeatedly do some specific instructions over and over again, and don't want to type the same thing out a few times.
 * Variable data types are the type of data you're storing. For example, you couldn't have "B" in an integer variable because an integer only stores a number.
-* Arrays allow you to store a collection of multiple values in a single variable.
-* Loops continuously run the same block of code until a certain of code is meant. For example, increment a number by 3 until the number is greater than 20.
-* The scope of a variable is the "region" of code a variable can be accessed by.
+* Arrays allow you to store a collection of multiple values in a single variable. These values can then be accessed by asking the array for the value at some index.
+* Loops continuously run the same block of code until a certain condition is met. For example, ask a user for a number until the number they enter is less than 10.
+* The scope of a variable is the "region" of code a variable can be accessed by. Inside a function, we might have some variable named *color* which will not be accessible anywhere except that function it's defined in.
 * Boolean algebra is a special type of math that deals with only True/False. It's more important later on, but is one of the foundations of computer science and engineering itself.
 * Documentation websites are where you'll often find yourself when learning new programming languages or when using libraries. They tell you how the code works, how to use it, and any quirks it may have.
 * Problem solving skills are explained below.
 
-This will likely take a little while, don't just watch a video or two and have a basic understanding of their concepts. True understanding and knowledge comes through **experience**, which takes lots of **time**, **failure**, **mistakes**, and most importantly, **projects**. This lesson covers a LOT and should by far take the longest of any of the lessons, at the very **LEAST 2-3 weeks**.
+This will likely take a little while, don't just watch a video or two and have a basic understanding of their concepts. True understanding and knowledge comes through **experience**, which takes lots of **time**, **failure**, and **mistakes**, which we gain by doing **projects**. This lesson covers a LOT and should take a hefty amount of work and time, at the very **LEAST 2-3 weeks**.
 
 This stage of your learning is hands down the most important part of your entire journey. Without a very strong understanding of the **fundamentals of programming itself**, you won't be able to get anywhere on your own. Keep in mind the fundamentals are significantly different and more important than the programming language itself. Things like real problem solving skills and the ability to break a problem down into individually solvable parts are incredibly useful, impossible to move on without. As tedious and boring as it might get, I can't reiterate enough that you need to **REALLY TRULY** understand these first few lessons, to the point of where any project or problem could be provided to you within your skill level and you should be able to pull it off within a **reasonable amount of time** with minimal problems.
 
@@ -50,13 +50,13 @@ One thing I will note, very early on, is that AI chatbots like ChatGPT, Grok, Cl
 
 ### ----- How do I "Problem Solve?" -----
 
-Problem solving is a widely under-talked about aspect of programming, which is why I'm writing a mini lesson on it here. For the most part, this skill should develop naturally with time and experience but it's good to read a bit about it,
+Problem solving is a widely undiscussed aspect of programming, which is why I'm writing a mini lesson on it here. For the most part, this skill should develop naturally with time and experience but it's good to read a bit about it,
 
 So what's even meant by problem solving? We can all solve problems can't we? Most of us probably wouldn't even be here if we didn't have SOME form of these skills right? Well, though those questions may be correct, they may not be as strong as you think they are, no offense intended.
 
 For your first little exercise, imagine yourself as the developer of a little 2D mobile game. The game's nothing super serious, but the general idea for it is for you to be able to build your own terrarium and decorate it with your own plants, soils, bugs, animals, and whatever else might be included in a terrarium. You probably already have some more advanced ideas for this game, which is great, **creativity goes a LONG way** in programming. Now, I want you to think, what's the VERY FIRST, absolutely most basic thing you need to get done once you start coding your game. Some common answers to this are getting a terrarium on screen, making plant models, or making moving bugs. While these aren't exactly bad answers, they're not exactly as simple as they might seem. What do we need that's even more simple than that? If you guessed a window that we can even display stuff on, congratulations, you're already figuring it out better than 90% of most beginners. The VERY first thing we need is a little window we're able to even draw or display stuff on in the first place. From there, what's the next step? Well, the whole idea of having this window is to display stuff, so let's try drawing a line, or perhaps a square on the screen. From there, we can make the square move from left to right. Then we can draw a little box around our square, our first little "terrarium." As time goes on, we keep building up and up, making our little box slightly more and more complicated until we finally have something that resembles a terrarium, dirt, little bugs, and so on.
 
-If you haven't caught on already, the point to this lesson is to teach that in programming, it's far too easy to try and start out too big. If we tried to start out by making moving bugs and plants that would grow as time went on, we probably would have to end up changing a LOT of their code in the future, assuming we even got that far in the first place. If we had their textures, models, and even some code that could be usable, what would we use them on? We have no window to render these plants, no physics engine, and not even and object system in place. You can't start building a skyscraper from the top. Never forget how important it is to start small and simple, to break your idea down into its smallest most simple parts and start putting it together from there.
+If you haven't caught on already, the point to this lesson is to teach that in programming, it's far too easy to try and start out too big. If we tried to start out by making moving bugs and plants that would grow as time went on, we probably would have to end up changing a LOT of their code in the future, assuming we even got that far in the first place. If we had their textures, models, and even some code that could be usable, what would we use them on? We have no window to render these plants, no physics engine, and not even and object system in place. You can't start building a skyscraper from the top. Never forget how important it is to start small and simple, to break your idea down into its smallest most simple parts and start putting it together and solving each sub-problem first.
 
 ### ----- Project Ideas -----
 
@@ -123,7 +123,7 @@ One thing I wanna go over right away is how important learning how to write clea
 
 Another thing I think is important to learn somewhat early on is how to actually use the command line. At first sight it's a pretty scary thing, a lot of people view it as a dangerous section of your computer that you should never touch to avoid screwing something up. While this is kind of true to some degree, it's nearly impossible to do, especially on windows, without a good amount of knowledge and luck. In order to screw something up, it HAS to be intentional, so you probably won't need to worry too much. The reason I think it's such an important thing to learn now is mainly because of Git, as the commands you'll be running are all through the terminal unless you use something like GitHub desktop. On top of that, basic knowledge of it is necessary for more advanced programming languages like C++, which we'll learn a little later down the road. It's also very common for servers to run on Linux distributions that are terminal only, meaning there's no user interface or anything you can click on. This might seem a little silly at first, but you'll understand a little better later on once we learn how servers work and how resource intensive having a GUI could be. Bottom line, get comfortable with the command line, it's not as scary or hard as it might seem at first.
 
-The final topic I wanna go over here is edge case handling. As mentioned before, edge cases are odd values that we might not exactly expect our program to receive which end up breaking things. It's easy to say something like "oh well whoever's using my program shouldn't be doing stupid inputs with it in the first place," and while you aren't exactly wrong, it's still not very good practice to just let these slip by. There are many, many instances where edge cases will arise from non user-entered values and our edge cases are completely normal values that we would expect to receive. That's why it's so important to handle, especially in large complex systems where a single error could shutdown an entire city.
+The final topic I wanna go over here is edge case handling. As mentioned before, edge cases are odd values that we might not exactly expect our program to receive which end up breaking things. It's easy to say something like "oh well whoever's using my program shouldn't be doing stupid inputs with it in the first place," and while you aren't exactly wrong, it's still not very good practice to just let these slip by. There are many, many instances where edge cases will arise from non user-entered values and our edge cases are completely normal values that we would expect to receive. That's why it's so important to handle, especially in large complex systems where a single error could shutdown an entire city. (Thanks Cloudflare)
 
 ### ----- Project Ideas -----
 
@@ -275,6 +275,7 @@ This lesson should take 3-4 weeks.
 - Printing to console with cout
 - Inputting with cin
 - Structs
+- Header files
 - The C++ compiler
 - Compilers vs Interpreters
 - RAM and how it's used
@@ -290,7 +291,8 @@ This lesson should take 3-4 weeks.
 * Default arrays in C++ must have a declared size. The total number of items in the array cannot exceed this size, and our program will crash if it does. This problem is fixed with **vectors**, which are arrays with practically infinite size but we'll take a look at those once we move into more advanced C++.
 * Instead of using print() like in Python, we use cout, the C++ standard output stream which lets us easily concatenate and output things to the console.
 * Instead of using input() like Python, we use cin instead.
-* Structs are a very basic implementation of objects, derived from C. They allow you to create a piece of data containing multiple 
+* Structs are a very basic implementation of objects, derived from C. They allow you to create a piece of data containing multiple variables to describe that data.
+* Header files, in C++, are files that we use to declare the functions and global variables so they can be used across other files. We might have some file called math.cpp, whose functions are built to be used by other files, so we'd create an associated header file called math.h and put our function definitions in there. This allows us to import math.h and use those functions in other files like main.cpp by giving the compiler necessary information to link function calls back to that header file.
 * The compiler looks at our code and translates it into machine code, which is read by us humans in the form of **Assembly**. This will produce an executable file for us to click and run. On the other hand, an interpreter, which is what Python uses, interprets and executes our code line by line.
 * Our computers need some way of actually storing all the numbers and letters we're seeing on screen, as well as all the instructions written in our code. It stores most of this in the RAM (Random Access Memory), in the form of binary or hexadecimal. Different data types take up different amounts of space. For instance by default, an integer variable takes up 32 bits, or 4 bytes, in memory.
 * Unsigned integers are integers that cannot be negative, and will roll back to 0 once they hit their size limit. Signed integers, on the other hand, can be negative, and will roll to it's lowest value when they hit their size limit.
@@ -302,7 +304,8 @@ This probably seems like a LOT to learn, and trust me, it is. We're entering alm
 
 With basic knowledge of objects finally out of the way, we've finally learned some of the most useful features of programming. Of course, these features aren't very useful to us unless we practice and make good use of em, so get to work and make some cool stuff. In the projects below, we won't need to use very advanced classes or niche C++ features however you're free to if you feel comfortable. Be sure to handle any errors or edge cases that may occur so your program doesn't crash or break.
 
-- 
+- Password strength checker, that takes some string input and determines on a scale from 1-10 how strong your password is.
+- Tic Tac Toe game against the computer, where the board is represented by some 3x3 array that gets **neatly** printed to console. The player should be able to pick which cell to play in through a row, A-C, and a column, 1-3. The computer's moves should be randomized, unless you would like to come up with an algorithm to always make the best move, which will involve checking to see if the user is ever 1 move away from winning.
 
 ### ----- Resources -----
 
@@ -315,6 +318,8 @@ Hopefully we've developed a basic understanding of C++ by now. We've learned it'
 This lesson should take 3-4 weeks
 
 ### ----- What to learn (Ordered) -----
+- File Inclusion
+- File input/output
 - Pointers and references
 - Vectors
 - Classes and class methods
@@ -323,20 +328,31 @@ This lesson should take 3-4 weeks
 - Stacks and Queues
 - Binary Trees
 - Hash tables / Hashmaps
+- Library use
 
 ---**What are these? (Also ordered)**---
 
+- Just like in Python, we can import functions from another file. The way we do this in C++ is slightly different though, where we define all of our functions in our header (.h) file. From there, we can then import the header file of any file we'd like, given the functions in the header file are implemented in some .cpp file. For example, we could have some main.cpp file needing to use some functions in math.cpp, so we'd import math.cpp's header file (probably named math.h) inside either main.cpp or main.h to use those functions.
+- The standard C++ library contains lots of functions useful for reading and writing to files. This allows us to store data and retrieve it later on, making it incredibly useful if you want data from your program to persist. Different modes can be specified to allow writing plain text, or raw binary to a file. Writing raw binary can be signifcantly more efficient when simply saving data that isn't supposed to be read by anyone except the computer, as writing the number 34,263,652 to a file in binary mode only takes 4 bytes, where as in plain text mode it would take twice that amount, 8 bytes. (1 32 bit integer, vs 8 ascii characters)
 - If you haven't learned about them already, pointers and references are incredibly useful in managing memory and keeping things efficient. They allow us to have a variable that "points" to some other variable somewhere else in memory, instead of having to **create copies which takes processing power and even more memory**. They're incredibly useful in data structure implementation, as data structures often have "nodes" which can be thought of as the indices or "slots" in an array. Most nodes know some type of information about other nodes in the structure such as knowing where its neighboring nodes are, through pointers. **Pointers often don't get explained well by people who teach them**, I will link a video soon showing them and their use cases.
 - Vectors are a much more advanced version of arrays. Vectors are essentially an "infinite size" array which when necessary, continuously grow themselves to be bigger and bigger behind the scenes to be able to fit more and more items in. Vectors can be created with any data type or user-defined types, meaning we can populate them with even our own structs and classes.
 - Classes are the C++ implementation of objects, very useful for object oriented programming. Classes allow you to create your own objects with their own associated attributes and methods. They work quite similar to how they do in python, however a lot less janky as C++ was developed with OOP in mind.
 - Templates are the C++ version of generic typing. Generic types are what allow us to create some data structure that holds whatever type of data type or user-defined type we want. Things like vectors use generic types, allowing a vector of integers, doubles, some user-defined Person class, or even a vector of vectors of strings.
+- Linked Lists are a data structure similar to arrays, where we can sequentially insert pieces of data into a list. Each element in a linked list is called a **node**, where each node knows whether it's the **head** or **tail** node (first or last node), the previous node, and next node in line, if they exist. Generally, this is done through pointers, where a node has a pointer to its neighbors around it, and can be traversed by simply repeatedly accessing a pointer to the next or previous node. These are beneficial because they allow us to insert elements without the need to shift every other element in the list down one, leading to much faster insertions. The downside, however, is that we cannot access a specific element by index in constant time, to reach the n'th element, we must start at the first node and continuously retrieve the next node n times.
+- Stacks and Queues are data structures that "stack" data. In a stack, whatever element was most recently added is the next to come out, similar to a stack of plates. In a queue, whichever element was least recently added is the next to come out. Both are very useful for scheduling and even advanced algorithms.
+- A Binary Tree is a set of nodes that contain at most 2 children, and a parent node. The uppermost node is the root node, and generally acts as the starting point for things like search trees. As more nodes are added, the tree tends to grow downwards. Depending on how they're implemented, they can be used to efficiently store, and search for data in O(logn) time through repeatedly diving the number of nodes in half for each step down.
+- Hashmaps are a form of key value data storage, assigning some piece of key data, to another piece of data. When an element added to the map, the key is hashed into an address to be placed into memory, along with its value. When a value is needed, the key can be given, which will then be hashed and the value at the given address will be returned as the value. This leads to constant access time without the need to search through the entire list to find some piece of data. A simple example of this would be an entire hashmap filled with every US state and their population, with the state name being the key and the value being it's population. Then, you could ask the map for the value at key "Oregon" and it would return 4,200,000.
+- C++ quite obviously has a HUGE ecosystem of libraries, more commonly referred to as packages in Python. Using them can be quite a bit more challenging in C++, especially with the number of ways to do it, so getting the hang of it is quite necessary once you start writing larger scale projects.
 
+### ----- Project Ideas -----
 
+Now, we can finally actually start writing some cool, cool stuff. We're writing in a language that can do things incredibly quickly, allowing us to write advanced algorithms, simulations, and even games.
 
-
-
-
-
+- CLI password management system that allows you to add, remove, view, and store passwords in a file. Remember, it is **EXTREMELY important to never store plaintext passwords**, so you're gonna want to find some library that uses an encryption algorithm like AES-256 or similar to store your passwords in. **Take care to research exactly how we actually store passwords in files.**
+- Build a Linked List along with functions to traverse the list and find elements in your node. Be careful as to handle all edge cases and any errors that may occur so nothing breaks.
+- Build both a Stack and a Queue data structure, along with functions to add elements and get the top/bottom element. These data structures can actually be **very useful** in some later algorithms we will explore. Again, be careful to handle edge cases so no weird, unexpected errors occur.
+- Build a Binary Tree data structure of some type, along with functions to add to, remove from, and traverse around the tree. I recommend implementing a [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree), which keeps data sorted for very quick searching. Google uses binary search trees to quickly decide what sites match your query. Once again, be careful to handle edge cases so no weird, unexpected errors occur.
+- Use a library like [SFML](https://www.sfml-dev.org/) to build a simple game or particle/gravity simulation. This one is up to your interpretation, but there's a LOT of things you can do with this library, especially with its really good [documentation](https://www.sfml-dev.org/documentation/3.0.2/). There's lots of good videos around this type of stuff like this [Sand Simulation Video](https://www.youtube.com/watch?v=HrrJxkRlRfk)  or extremely advanced [Gravity Simulation](https://www.youtube.com/watch?v=GjbcvqEOIuE&t=572s). The data structures and algorithms you use to do this are **very** important, as things like simulations can be very, very performance intensive.
 
 
 
