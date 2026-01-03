@@ -46,9 +46,7 @@ This will likely take a little while, don't just watch a video or two and have a
 
 This stage of your learning is hands down the most important part of your entire journey. Without a very strong understanding of the **fundamentals of programming itself**, you won't be able to get anywhere on your own. Keep in mind the fundamentals are significantly different and more important than the programming language itself. Things like real problem solving skills and the ability to break a problem down into individually solvable parts are incredibly useful, impossible to move on without. As tedious and boring as it might get, I can't reiterate enough that you need to **REALLY TRULY** understand these first few lessons, to the point of where any project or problem could be provided to you within your skill level and you should be able to pull it off within a **reasonable amount of time** with minimal problems.
 
-One thing I will note, very early on, is that AI chatbots like ChatGPT, Grok, Claude, or whatever else you might use have the ability to generate code for you. I **STRONGLY** advise against this as a beginner, as it **will** get you almost nowhere and you'll end up missing many of the basic **problem solving** skills that come along with programming. If you're truly stuck, I say it's okay to ask it where a bug might be happening in your code as it can be useful to identify things like that, however keep in mind that mistakes are very common from the AI and a good percentage of the time, code that's generated often won't work as expected, or won't work at all. AI is a useful tool, but should never be fully relied upon to do a task for us. It will **only** work early on, as once we start getting to the super cool low-level stuff, it often miserably fails. We **MUST** understand how, and why the code it gives us works (or doesn't!!).
-
-Another thing I feel I should note early on, it's common for people to say that the Computer Science field is dying out and getting jobs is incredibly difficult. This, funny enough, is the exact opposite of the truth. Computer Science as a whole is a very, very young science and is still growing at a rapid rate. Even basically a century later, we're still witnessing the very beginning stages of our advancements. But if this is true, why are people saying jobs are so hard to get? Well, the answer is unfortunately simple. The CS industry **HIGHLY** favors knowledge, which unfortunately many people who claim to have knowledge or a degree don't actually really have much of. Anymore, especially with the introduction of AI, it's very common for people to end up at a college with a bad CS/Engineering program, or cheat their way through college and potentially use AI to generate their work for them. As you might expect, this is very, very obvious to interviewers who internally (and sometimes externally) laugh when you can't explain the difference between the Stack and Heap in memory. Computer Science extends far beyond just programming, it's the study of computation itself. Knowledge beyond just how to write a program goes a LONG way, as computers are highly complex systems and understanding quite literally everything about them down to a microscopic level is necessary to really make your skills useful. It won't be easy at all, I won't deny that, but the willpower to actually pull through despite all that is necessary. Long story short, Computer Science is far more complex than it may seem and studying this type of thing is ONLY worth it if you have the true desire to learn and have **real passion** for this kind of stuff. If you're going the college route, I'd say make SURE you pick a college with a good program because there are a LOT of colleges out there with some terrible CS programs where nothing you learn will really be that useful and that won't take you very far unfortunately.
+One thing I will note, very early on, is that AI chatbots like ChatGPT, Grok, Claude, or whatever else you might use have the ability to generate code for you. I **STRONGLY** advise against this as a beginner, as it **will** get you almost nowhere and you'll end up missing many of the basic **problem solving** skills that come along with programming. If you're truly stuck, I say it's okay to ask it where a bug might be happening in your code as it can be useful to identify things like that, however keep in mind that mistakes are very common from the AI and a good percentage of the time, code that's generated often won't work as expected, or won't work at all. AI is a useful tool, but should never be fully relied upon to do a task for us. It will **only** work early on, as once we start getting to the super cool low-level stuff, it often miserably fails. We **MUST** understand how, and why the code it gives us works (or doesn't!!).an't explain the difference between the Stack and Heap in memory. Computer Science extends far beyond just programming, it's the study of computation itself. Knowledge beyond just how to write a program goes a LONG way, as computers are highly complex systems and understanding quite literally everything about them down to a microscopic level is necessary to really make your skills useful. It won't be easy at all, I won't deny that, but the willpower to actually pull through despite all that is necessary. Long story short, Computer Science is far more complex than it may seem and studying this type of thing is ONLY worth it if you have the true desire to learn and have **real passion** for this kind of stuff. If you're going the college route, I'd say make SURE you pick a college with a good program because there are a LOT of colleges out there with some terrible CS programs where nothing you learn will really be that useful and that won't take you very far unfortunately.
 
 ### ----- How do I "Problem Solve?" -----
 
@@ -119,7 +117,7 @@ This lesson should take approximately 1-2 weeks.
 * PIP is the default python package installer. It allows you to download packages or libraries, which are often large organized collections of code (or "modules") written by other people made to perform a variety of specific, related functions.
 * Packages, modules, and libraries all mean basically the same thing in this context. It's very common to need to use other people's libraries to assist in writing your own code.
 * As explained before, documentation is how we keep track of our code in English, writing out what it does, how it works, how to use it, and what to expect from it.
-* Git is a command line application that lets us track the version history of our code. GitHub is a place where we can upload Git repositories, which are the collections of our code bases. This allows us to track progress and past versions of our code, as well as acts as an online backup just in case we somehow lose it. There are other Git hosting services such as GitLab, SourceForge, Amazon AWS, and others, however GitHub and GitLab are the two mainstream ones.
+* Git is a command line application that lets us track the version history of our code. GitHub is a place where we can upload Git repositories, which are the collections of our code bases. This allows us to track progress and past versions of our code, as well as acts as an online backup just in case we somehow lose it. There are other Git hosting services such as GitLab, SourceForge, Amazon AWS CodeCommit, and others, however GitHub and GitLab are the two mainstream ones.
 
 One thing I wanna go over right away is how important learning how to write clean, organized, and well documented code is in this phase. It's really easy to be mindlessly writing code without thinking about how readable it is or how well it might be optimized. Whether you believe it or not, you **will** eventually forget exactly how some parts of your programs work and if there's no comments explaining anything and the code is messy, written like a bowl of noodles, you'll have a hard time figuring out what exactly does what and how things are linked together. As a result, this makes maintaining, expanding, and updating your code significantly harder.
 
@@ -132,8 +130,9 @@ The final topic I wanna go over here is edge case handling. As mentioned before,
 We've finally moved onto slightly more advanced projects yippee!! From here on out, each of these projects will likely take a bit longer and require more thinking and troubleshooting. Don't let that demotivate you though, as that's really, truly, the only way to get better. I also recommend practicing writing cleaner, more organized code as you work on these projects. Be sure to handle any errors or edge cases that may occur so your program doesn't crash or break.
 
 - Clean up old code. Look through some of your past projects and see how you can clean, document, and potentially maybe even optimize some of the past programs you've written. This is a very common thing to need to do, so getting some practice in now never hurts.
-- Use a library like matplotlib to display some type of statistics of your choice. [Matplotlib](https://matplotlib.org/)
+- Use a library like [Matplotlib](https://matplotlib.org/) to display some type of statistics of your choice.
 - Write a note taking app, which allows you to save notes with a title, an actual note itself, and an automatically determined date. Upon opening, a menu should be displayed asking the user if they want to write a note or open a note. If they choose to write a note, they enter a title and the note itself, which then gets saved to a file along with the date. If they choose to open a note, the title and date of every note they have written will display on screen, bonus points if you have a preview of the note itself. They can then choose to display a note by typing in the title.
+- Use a package like [pytube](https://github.com/pytube/pytube) or similar to allow users to easily download files from YouTube, given some video link.
 
 ### ----- Resources -----
 
@@ -247,8 +246,7 @@ There aren't really many projects you could really do with this information, but
 
 ### ----- Resources -----
 * [Introduction to Binary](https://www.cmu.edu/gelfand/lgc-educational-media/digital-education-modules/dem-documents/new-the-world-of-the-internet-handouts.pdf)
-* [(Video) How to Convert Decimal to Binary](https://www.youtube.com/watch?v=VLflTjd3lWA)
-* [(Video) Binary Addition and Subtraction](https://www.youtube.com/watch?v=C5EkxfNEMjE)
+* [(Video) How to Convert Decimal to Binary](https://www.youtub.com/watch?v=C5EkxfNEMjE)
 * [Binary Multiplication](https://www.sciencedirect.com/topics/engineering/binary-multiplication)
 * [What is Hexadecimal](https://www.techtarget.com/whatis/definition/hexadecimal)
 * [(Video) How to Convert Hexadecimal to Decimal](https://www.youtube.com/watch?v=pg-HEGBpCQk)
@@ -265,7 +263,7 @@ I highly recommend watching step by step tutorials for learning how to install t
 
 A lot more command line knowledge is gonna be needed from here on out, so I recommend if you're a bit rusty or didn't learn it very well in  the first place, you backtrack a bit and clean up your knowledge.
 
-This lesson should take 2-4 weeks.
+This lesson should take 3-4 weeks.
 
 ### ----- What to learn (Ordered) -----
 - Basics of C++, listed below
@@ -273,12 +271,13 @@ This lesson should take 2-4 weeks.
 - If/Else statements
 - Functions, return types, parameters and arguments
 - Loops
-- Basic arrays
+- Basic arrays and their limitations
 - Printing to console with cout
 - Inputting with cin
+- Structs
 - The C++ compiler
 - Compilers vs Interpreters
-- Memory, RAM, and how things are stored there
+- RAM and how it's used
 - Unsigned vs signed integers
 - Two's complement binary, (Signed integers)
 
@@ -291,13 +290,46 @@ This lesson should take 2-4 weeks.
 * Default arrays in C++ must have a declared size. The total number of items in the array cannot exceed this size, and our program will crash if it does. This problem is fixed with **vectors**, which are arrays with practically infinite size but we'll take a look at those once we move into more advanced C++.
 * Instead of using print() like in Python, we use cout, the C++ standard output stream which lets us easily concatenate and output things to the console.
 * Instead of using input() like Python, we use cin instead.
-* The compiler looks at our code and translates it into machine code, or **Assembly**. This will produce an executable file for us to click and run. On the other hand, an interpreter, which is what Python uses, interprets and executes our code line by line.
+* Structs are a very basic implementation of objects, derived from C. They allow you to create a piece of data containing multiple 
+* The compiler looks at our code and translates it into machine code, which is read by us humans in the form of **Assembly**. This will produce an executable file for us to click and run. On the other hand, an interpreter, which is what Python uses, interprets and executes our code line by line.
 * Our computers need some way of actually storing all the numbers and letters we're seeing on screen, as well as all the instructions written in our code. It stores most of this in the RAM (Random Access Memory), in the form of binary or hexadecimal. Different data types take up different amounts of space. For instance by default, an integer variable takes up 32 bits, or 4 bytes, in memory.
 * Unsigned integers are integers that cannot be negative, and will roll back to 0 once they hit their size limit. Signed integers, on the other hand, can be negative, and will roll to it's lowest value when they hit their size limit.
 * Two's complement is the method we use to store negative numbers in binary. Not a super deep understanding of this is required just yet, but it's a good thing to know.
 
 This probably seems like a LOT to learn, and trust me, it is. We're entering almost a whole new world of computers here so don't expect it to be easy. It **WILL** be frustrating, we've all been there before. There will be multiple times where you feel absolutely stuck or like nothing is making any sense and that's completely normal. Don't be afraid to step back backtrack a little if there's a concept you aren't quite understanding or seem to be too advanced. But please do remember, you have infinite resources on the internet and even me if you get stuck, so feel free to contact if you have any questions :)
 
+### ----- Project Ideas -----
+
+With basic knowledge of objects finally out of the way, we've finally learned some of the most useful features of programming. Of course, these features aren't very useful to us unless we practice and make good use of em, so get to work and make some cool stuff. In the projects below, we won't need to use very advanced classes or niche C++ features however you're free to if you feel comfortable. Be sure to handle any errors or edge cases that may occur so your program doesn't crash or break.
+
+- 
+
+### ----- Resources -----
+
+# L6 - Advanced C++ and Data Structures
+
+Hopefully we've developed a basic understanding of C++ by now. We've learned it's much more rigid and strict than Python, and early on it might even feel kind of janky. Nevertheless, we still need to move on and now learn some of the main features that makes C++ genuinely useful.
+
+"Bad programmers worry about the code. Good programmers worry about data structures and their relationships." - Linus Torvalds
+
+This lesson should take 3-4 weeks
+
+### ----- What to learn (Ordered) -----
+- Pointers and references
+- Vectors
+- Classes and class methods
+- Templates / Generic Types
+- Linked Lists
+- Stacks and Queues
+- Binary Trees
+- Hash tables / Hashmaps
+
+---**What are these? (Also ordered)**---
+
+- If you haven't learned about them already, pointers and references are incredibly useful in managing memory and keeping things efficient. They allow us to have a variable that "points" to some other variable somewhere else in memory, instead of having to **create copies which takes processing power and even more memory**. They're incredibly useful in data structure implementation, as data structures often have "nodes" which can be thought of as the indices or "slots" in an array. Most nodes know some type of information about other nodes in the structure such as knowing where its neighboring nodes are, through pointers. **Pointers often don't get explained well by people who teach them**, I will link a video soon showing them and their use cases.
+- Vectors are a much more advanced version of arrays. Vectors are essentially an "infinite size" array which when necessary, continuously grow themselves to be bigger and bigger behind the scenes to be able to fit more and more items in. Vectors can be created with any data type or user-defined types, meaning we can populate them with even our own structs and classes.
+- Classes are the C++ implementation of objects, very useful for object oriented programming. Classes allow you to create your own objects with their own associated attributes and methods. They work quite similar to how they do in python, however a lot less janky as C++ was developed with OOP in mind.
+- Templates are the C++ version of generic typing. Generic types are what allow us to create some data structure that holds whatever type of data type or user-defined type we want. Things like vectors use generic types, allowing a vector of integers, doubles, some user-defined Person class, or even a vector of vectors of strings.
 
 
 
@@ -313,6 +345,8 @@ This probably seems like a LOT to learn, and trust me, it is. We're entering alm
 
 # L100 - HTML and CSS
 
+Behold, the backing of basically every single website you've ever laid your eyes on. HTML and CSS are perhaps the single most useful thing to know when devloping a website.
+
 # L200 - Databases
 
 # L300 - Networking Basics
@@ -322,3 +356,50 @@ This probably seems like a LOT to learn, and trust me, it is. We're entering alm
 # L500 - Server Systems
 
 # L600 - Programming Languages
+
+As you have hopefully learned by now, there's tons of different programming languages out there which generally tend to have their own specialized use cases. The four we have learned up to this point are Python, C++, Assembly, and Javascript (or hopefully even more !!).  As you've probably noticed, each of these 4 languages all have their own way of being written, studied, and their own use cases. These are what we call the programming language **semantics** and **syntax**, which are terms for the mathematical meaning behind what we write. These 4 languages, conceptually, will more or less cover most topics, use cases, and issue's we'll run in to when writing in any language. As you begin to learn more languages, you'll start to realize that each new language is just some different flavor of another language you've already learned, with different syntax but similar semantics. This can heavily speed up the learning process of new languages, as once you know some of the main, core languages, everything else is similar enough. While this is true, it's also important **not to fall into the trap of just learning the language's syntax**, but not necessarily its semantics. Take, for example, C/C++ and **Rust**. Rust is a "memory safe" version of C which is intended to have very similar functions and use cases to C, but with better memory safety, package management, and in some cases, even things like execution speed. If you already know C/C++ and start to learn the language's syntax, it'll be a breeze. You already understand everything like data types, memory allocation, compilers, and everything else that comes along with low level languages. The trap here is, if you try and write Rust code with similar semantics and flow as you would in C, it's very likely your Rust code will seem awkward and in many cases, even **unsafe** to experienced Rust devs. Rust has an entirely different flow, a different way of being written and doing things, which is very important and takes time, effort, and failure to learn, which probably sounds very similar to your early Computer Science experience. As you'd expect, this issue will arise again and again with each new language you learn, however as long as you understand the core concepts of the language you're learning, you should be able to master it in no time.
+
+### --- **But how do I choose a programming language?** ---
+
+With all that in mind, we dive into our next topic, how do I even choose which programming language to write my next piece of software in? The answer to that question won't always be a simple, single language best answer, as many languages *can* serve the same purpose, but it's important to learn to **use good judgement**. **Though there may not always be one, single correct answer**, it's generally a good idea to go with what will combine simplicity, functionality, and personal comfort. Below will be a list of a ton of various programming languages, along with their use cases, pros, and cons to potentially help you make your decision. Still, keep in mind it's always a good idea to research more before you make your choice.
+
+<br>
+
+### --- **C** ---
+C is generally used for low level systems programming or writing any code where execution speed really, really matters. We see it everywhere in places like operating systems, device drivers, embedded systems like our little thermostat or BIOS components, system libraries that deal with things like graphics, audio, and device I/O, and almost anywhere else you could even imagine. Even if you're not writing in C, there's a good chance that C is *always* running in the background.
+
+C is a great choice if you're planning on writing any smaller scale low-level system code that's supposed to operate very close to the hardware, or if you're writing something where execution speed is absolutely critical. If memory safety is important and you don't trust yourself enough, some better options might be C++, Rust, or Go.
+
+#### **Pros:**
+- Extremely fast, gets compiled directly into machine code.
+- Modern compilers optimize the code very, very well.
+- Very lightweight, providing minimal abstraction so you're getting basically *exactly* what you type.
+- Manual memory allocation and freeing, leading to much more control and efficiency if done well.
+- No garbage collector constantly running, which takes up copious amounts of extra memory and processing power.
+- HUGE ecosystem, a library for almost anything you could ever need probably exists.
+- Compiles for anything, everywhere.
+
+#### **Cons:**
+- No memory safety features at all, meaning manual memory allocaiton and freeing can also lead to severe safety issues, crashing, and memory leaks if not handled correctly.
+- Can be difficult to debug.
+- Much slower development at a large scale.
+
+<br>
+
+### --- **C++** ---
+C++ is like if C had a child and got really lucky with the gene pool. C++ code can be used everywhere where C is used, it's just like C but significantly more functional, providing Object-Oriented semantics with zero-cost abstractions among many other quality-of-life features. C++ is generally used in large scale applications where low-level performance and features matter. These are usually things like web browsers, game engines and devleopment, libraries and frameworks, databases, and simulations.
+
+C++ is a great choice if you're building a larger scale application while still requiring performance and control. It's among one of the most versatile languages and *can* be used for almost everything (doesn't mean it *should* though). Though it provides all features of C (and more !!) but with added safety, memory safety issues still arise.
+
+#### **Pros:**
+- All pros of C.
+- **Modern compilers** are very advanced and can often optimize abstractions away.
+- Provides classes, templates, and generic types, which are very useful for library and data structure building.
+- Much better memory safety than C.
+- Interoperable with all C code.
+- Significantly easier to develop at large scales than C.
+
+#### **Cons:**
+- Memory safety issues can still arise, even in the standard library functions if not handled correctly.
+- Standard library implementations differ across platforms.
+- High complexity which can lead to spaghetti code and difficulty in learning.
